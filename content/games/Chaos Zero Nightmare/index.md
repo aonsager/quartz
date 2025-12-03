@@ -25,7 +25,7 @@ title: Chaos Zero Nightmare
   </tr>
 </table>
 
-[Details →](meilin)
+[Details →](meilin.md)
 
 <h2 class="character-header header-blue">
   Mika
