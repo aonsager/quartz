@@ -23,3 +23,4 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 	- [ ] Set up automatic deploys (rsync) in Github Actions
 	- [ ] Make a section for Haiku?
 	- [ ] Decide how much I want to change the site's layout/CSS
+	- [ ] Enable hover pop-up links for only certain links

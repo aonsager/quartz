@@ -1,9 +1,5 @@
 @use "./base.scss";
 
-.cell-green {
-  background-color: #d9ead3;
-}
-
 .character-header {
   margin-top: 60px;
   padding: 0px 0px 0px 300px;
@@ -45,4 +41,31 @@
   position: absolute;
   top: -50px;
   left: 0;
+}
+
+pre {
+	padding: 0.5rem 1rem;
+}
+
+.table-container table {
+	border-collapse: collapse;
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 0.9em;
+    min-width: 400px;
+    border: 1px solid var(--lightgray);
+}
+
+table th,
+table td {
+    padding: 4px 10px;
+    border-right: 1px solid var(--lightgray);
+}
+
+table tbody tr {
+    border-bottom: 1px solid var(--lightgray);
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: var(--light);
 }

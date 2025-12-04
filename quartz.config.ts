@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "Invisible Wiki",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: null,
     locale: "en-US",
     baseUrl: "wiki.invisibleparade.com",

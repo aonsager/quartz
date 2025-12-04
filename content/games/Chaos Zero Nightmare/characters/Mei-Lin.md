@@ -12,18 +12,9 @@ title: Mei-Lin
 
 ## Memory Fragments (18/18)
 
-<table>
-	<tr>
-    <td>Set Bonuses</td>
-    <td>Primaries</td>
-    <td>Legendary?</td>
-  </tr>
-  <tr>
-    <td class="cell-green">6/6</td>
-    <td class="cell-green">6/6</td>
-    <td class="cell-green">6/6</td>
-  </tr>
-</table>
+| Set Bonuses | Primaries | Legendary? |
+| :---------- | :-------- | :--------- |
+| ✅️ 6/6      | ✅️ 6/6    | ✅️ 6/6     |
 
 ![meilin-gear.png](meilin-gear.png)
 
