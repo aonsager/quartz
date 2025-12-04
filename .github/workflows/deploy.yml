@@ -1,0 +1,32 @@
+name: Deploy Wiki
+
+on:
+  push:
+    branches: [ "v4" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+
+          # Write private key
+          echo "${{ secrets.RSYNC_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+
+          # Write known_hosts
+          echo "${{ secrets.RSYNC_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Deploy via rsync
+        run: |
+          rsync -avz --delete \
+            public/ \
+            alex@vps.invisibleparade.com:/srv/wiki/
