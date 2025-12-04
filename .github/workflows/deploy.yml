@@ -29,4 +29,4 @@ jobs:
         run: |
           rsync -avz --delete \
             public/ \
-            alex@vps.invisibleparade.com:/srv/wiki/
+            github-actions@vps.invisibleparade.com:/srv/wiki/
