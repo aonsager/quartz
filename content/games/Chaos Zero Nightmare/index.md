@@ -16,7 +16,7 @@ title: Chaos Zero Nightmare
 | :--------------- | :---------- | :--------- |
 | ✅️ 18/18         | ✅️ 2/5 +2   | ✅️ 9/9     |
 
-[Details →](Mei-Lin.md)
+[[Mei-Lin | Details →]]
 
 
 <h2 class="character-header header-blue">
@@ -29,6 +29,20 @@ title: Chaos Zero Nightmare
 
 | Memory Fragments | Target Deck | Potentials |
 | :--------------- | :---------- | :--------- |
-| ❌️ 0/6         | ❌️ 1/3 +2   | ❌️     |
+| ✅️ 18/18         | ✅️ 4/6 +3   | ❌️ 0/4    |
 
-[Details →](Mika.md)
+[[Mika | Details →]]
+
+<h1 class="character-header header-purple">
+  Renoa
+  <div class="stripe stripe-purple"></div>
+  <div class="character-image">
+    <img src="renoa_card.webp" />
+  </div>
+</h1>
+
+| Memory Fragments | Target Deck | Potentials |
+| :--------------- | :---------- | :--------- |
+| ❌️ 0/6         | ❌️    | ❌️     |
+
+[[Renoa | Details →]]

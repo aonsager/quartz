@@ -19,6 +19,10 @@
   color: #187ab0;
 }
 
+.header-purple {
+  color: #b764ff;
+}
+
 .character-header .stripe {
   position: absolute;
   top: 0;
@@ -35,6 +39,10 @@
 
 .stripe-blue {
   background-color: #187ab0;
+}
+
+.stripe-purple {
+  background-color: #b764ff;
 }
 
 .character-header .character-image {
@@ -68,4 +76,9 @@ table tbody tr {
 
 table tbody tr:nth-of-type(even) {
     background-color: var(--light);
+}
+
+.page article li:has(>input[type=checkbox]:checked) {
+	text-decoration: none;
+	color: var(--darkgray);
 }

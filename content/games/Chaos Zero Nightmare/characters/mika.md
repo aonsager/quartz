@@ -13,34 +13,37 @@ title: Mika
 
 ## Memory Fragments (18/18)
 
-<table>
-	<tr>
-    <td>Set Bonuses</td>
-    <td>Primaries</td>
-    <td>Legendary?</td>
-  </tr>
-  <tr>
-    <td class="cell-green">6/6</td>
-    <td class="">5/6</td>
-    <td class="">5/6</td>
-  </tr>
-</table>
+| Set Bonuses | Primaries | Legendary? |
+| :---------- | :-------- | :--------- |
+| ✅️ 6/6      | ✅️ 6/6    | ✅️ 6/6     |
 
-## Target Deck (4/6)
+![mika-gear.png](mika-gear.png)
+
+## Target Deck (4/6 + 3)
 
 - Basic attack
 	- [x] Remove
 - Basic heal
-	- [ ] Remove 1
+	- [x] Remove 1
 - Source of Water
-	- [x] Decrease cost when recovering
-	- [ ] Duplicate
+	- [ ] Decrease cost when recovering
+	- [x] Duplicate
 - Blessing of Waves
-	- [x] Gain shield for overheal
+	- [ ] Gain shield for overheal
 - Tactical Analysis
-	- [x] Upgrade
+	- ~~Upgrade~~
+	- [x] Draw 1 (Divine)
+- Extras
+	- [x] Attack!
+	- [x] Rally
+	- [x] Wanderer of the Void
 
-## Potentials ()
+## Potentials (0/4)
 
 - Unique Card Upgrade
-	- [x] 10/10
+	- [ ] 12/13 
+- 5 (Health Proficiency)
+	- [ ] 1/5
+- 7 (Source of Water Recovery)
+	- [ ] 0/1
+	- [x] Ego Recovery 72/40
