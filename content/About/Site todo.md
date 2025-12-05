@@ -20,7 +20,7 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 	- [ ] Migrate all past blog posts
 		- [ ] Make sure that the URLs don't change
 - Other
-	- [ ] Set up automatic deploys (rsync) in Github Actions
+	- [x] Set up automatic deploys (rsync) in Github Actions
 	- [ ] Make a section for Haiku?
 	- [ ] Decide how much I want to change the site's layout/CSS
 	- [ ] Enable hover pop-up links for only certain links
