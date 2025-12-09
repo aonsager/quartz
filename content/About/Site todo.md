@@ -8,7 +8,7 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 	- [x] Start writing things about games I am playing
 	- [ ] Micro posts
 		- [x] Start writing micro-posts for my thoughts while playing
-		- [ ] Set up a workflow to easily write/save new files with the correct name and location (Obsidian script, or Shortcuts?)
+		- [x] Set up a workflow to easily write/save new files with the correct name and location (Obsidian script, or Shortcuts?)
 		- [ ] Figure out how to display a game's micro posts on that game's top page
 - Blog section
 	- [ ] Make a folder for writing blog posts, and copy some over

@@ -12,7 +12,7 @@ while [[ "$#" -gt 0 ]]; do
         --push|-p)
             DO_PUSH=true
             ;;
-        *)
+            *)
             echo "Unknown option: $1"
             exit 1
             ;;
@@ -20,7 +20,7 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-rsync -av --delete "$CONTENT_SOURCE" content/
+rsync -av --exclude '.*' --delete "$CONTENT_SOURCE" content/
 
 if [ "$DO_SERVE" = true ]; then
 	npx quartz build --serve

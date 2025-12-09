@@ -1,5 +1,6 @@
 ---
 title: Chaos Zero Nightmare
+hideFolderContent: true
 ---
 
 # Actively farming characters
@@ -43,6 +44,20 @@ title: Chaos Zero Nightmare
 
 | Memory Fragments | Target Deck | Potentials |
 | :--------------- | :---------- | :--------- |
-| ❌️ 0/6         | ❌️    | ❌️     |
+| ❌️ 4/6         | ❌️    | ❌️     |
 
 [[Renoa | Details →]]
+
+<h1 class="character-header header-purple">
+  Rei
+  <div class="stripe stripe-purple"></div>
+  <div class="character-image">
+    <img src="rei_card.webp" />
+  </div>
+</h1>
+
+| Memory Fragments | Target Deck | Potentials |
+| :--------------- | :---------- | :--------- |
+| ❌️ 0/6         | ❌️    | ❌️     |
+
+[[Rei | Details →]]

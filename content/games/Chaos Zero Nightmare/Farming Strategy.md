@@ -30,6 +30,14 @@ because these can create impossible fights that will wipe your run.
 
 Reducing credits is fine if you just want to finish the runs, but if you're trying to build a great deck you need a fair amount of credits to remove cards, buy neutral cards, and buy equipment. So events within Chaos that give credits are pretty valuable.
 
+# Chaos Upgrades
+
+There is an upgrade in the Chaos system that increases the chance of encountering Rare Species (upgraded versions of normal enemies) by up to 45%. The problem with this is that sometimes the enemies are strong enough to end your run, while the only upside is that you get more Chaos Orbs. 
+
+However! If you reset your Chaos Upgrades, all tiers remain unlocked and you can choose which upgrades to enable. And you get all of our Chaos Orbs back.
+
+So just reset, and re-enable everything except for the Rare Species probably up. Profit.
+
 # Deck Building
 
 Some principles to keep in mind:

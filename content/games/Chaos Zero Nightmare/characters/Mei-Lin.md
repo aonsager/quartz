@@ -20,6 +20,13 @@ title: Mei-Lin
 
 ## Target Deck (2/5 +2)
 
+
+> [!NOTE] Playstyle
+> Aggressive Mutant + Confiscation lets me keep using Forbidden: Violence, which quickly becomes 0-cost because of all of the card draw. 
+> This interaction then fuels a powerful Rising Dragon Spire.
+> 
+> Better versions of Unity of Attack would have been really nice.
+
 - Basic shield
   - [x] Removes
 - Rising Dragon Spire
@@ -30,8 +37,11 @@ title: Mei-Lin
   - [ ] **Move** 2 basic cards to hand
   - [ ] Extra Copy
 - Extras
-  - [x] Aggressive Mutant +Morale
-  - [x] Copy Aggressive Mutant +Morale
+  - [x] Copy Rising Dragon Spire
+  - [x] Aggressive Mutant +Vulnerable
+  - [x] Forbidden: Violence
+  - [x] Confiscation
+  - [x] Second Confiscation
 
 ## Potentials (9/9)
 
