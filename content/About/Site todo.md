@@ -6,21 +6,26 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 
 - Game wiki section 
 	- [x] Start writing things about games I am playing
-	- [ ] Micro posts
+	- [ ] Micro-posts
 		- [x] Start writing micro-posts for my thoughts while playing
 		- [x] Set up a workflow to easily write/save new files with the correct name and location (Obsidian script, or Shortcuts?)
-		- [ ] Figure out how to display a game's micro posts on that game's top page
+		- [ ] Display a game's micro posts on that game's top page
 - Blog section
 	- [ ] Make a folder for writing blog posts, and copy some over
 	- [ ] Home page display
-		- [ ] Figure out how to list recent blog posts on the home page
-		- [ ] Figure out how to display each blog post's 5-color code + summary
-		- [ ] Figure out a way to automatically populate each post's 5-color code (and any other frontmatter)
-	- [ ] Figure out how to set up an RSS feed for just the blog posts
+		- [ ] List recent blog posts on the home page
+			- [ ] And micro-posts?
+		- [ ] Display each blog post's 5-color code + summary
+	- [ ] Set up an RSS feed for just the blog posts
+	- [x] Obsidian script to publish done drafts
+		- [x] Generate the post's 5-color code
+		- [x] Generate tags for the post
+		- [x] Update the frontmatter
 	- [ ] Migrate all past blog posts
 		- [ ] Make sure that the URLs don't change
 - Other
 	- [x] Set up automatic deploys (rsync) in Github Actions
+	- [x] [[Disable Folder Listings for certain index pages]]
 	- [ ] Make a section for Haiku?
 	- [ ] Decide how much I want to change the site's layout/CSS
-	- [ ] Enable hover pop-up links for only certain links
+	- [ ] Enable hover hover-over links for only certain links

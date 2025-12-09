@@ -11,3 +11,5 @@ Because I access my Obsidian Vault on both desktop and mobile, the vault is save
 When building this site with Quartz, I have a script that batch-copies the files from my Obsidian vault into the Quartz folder, which it then uses to generate the site. The generated site is pushed to Github, where I have an Action setup to copy the contents of the `content/` folder to my VPS.
 
 I've always felt that it's unwieldy to install static-site generators on the VPS, so I prefer to do the generation on my local machine and just copy over the outputted files.
+
+Since the Markdown content is synced via iCloud, I can even set up a cron task on my home computer to build + deploy every hour.

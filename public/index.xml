@@ -6,6 +6,30 @@
       <description>Last 10 notes on Invisible Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Transparent Leadership</title>
+    <link>https://wiki.invisibleparade.com/Posts/test-post</link>
+    <guid>https://wiki.invisibleparade.com/Posts/test-post</guid>
+    <description><![CDATA[ From Transparent Leadership Beats Servant Leadership, by Chris at Entropic Thoughts: In my book, a good leader coaches people, connects people, […] creates direct links between supply and demand (instead of deliberately making themselves a middle man), […] generally makes themselves redundant. ]]></description>
+    <pubDate>Tue, 09 Dec 2025 06:51:00 GMT</pubDate>
+  </item><item>
+    <title>Disable Folder Listings for certain index pages</title>
+    <link>https://wiki.invisibleparade.com/Coding/Quartz-customizations/Disable-Folder-Listings-for-certain-index-pages</link>
+    <guid>https://wiki.invisibleparade.com/Coding/Quartz-customizations/Disable-Folder-Listings-for-certain-index-pages</guid>
+    <description><![CDATA[ Quartz automatically generates index pages for folders, and shows a list of all pages under that folder. ]]></description>
+    <pubDate>Tue, 09 Dec 2025 03:56:16 GMT</pubDate>
+  </item><item>
+    <title>Site todo</title>
+    <link>https://wiki.invisibleparade.com/About/Site-todo</link>
+    <guid>https://wiki.invisibleparade.com/About/Site-todo</guid>
+    <description><![CDATA[ In addition to using this site as a general wiki for my thoughts, I’m eyeing the possibility of migrating my entire blog to this format. ]]></description>
+    <pubDate>Tue, 09 Dec 2025 03:16:40 GMT</pubDate>
+  </item><item>
+    <title>Invisible Wiki</title>
+    <link>https://wiki.invisibleparade.com/</link>
+    <guid>https://wiki.invisibleparade.com/</guid>
+    <description><![CDATA[ My wiki Games. ]]></description>
+    <pubDate>Tue, 09 Dec 2025 03:16:40 GMT</pubDate>
+  </item><item>
     <title>Chaos Zero Nightmare</title>
     <link>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/</link>
     <guid>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/</guid>
@@ -41,30 +65,6 @@
     <guid>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Characters/Mei-Lin</guid>
     <description><![CDATA[  Mei-Lin Memory Fragments (18/18) Set BonusesPrimariesLegendary?✅️ 6/6✅️ 6/6✅️ 6/6 Target Deck (2/5 +2) Playstyle Aggressive Mutant + Confiscation lets me keep using Forbidden: Violence, which quickly becomes 0-cost because of all of the card draw. ]]></description>
     <pubDate>Mon, 08 Dec 2025 04:46:04 GMT</pubDate>
-  </item><item>
-    <title>202512081104</title>
-    <link>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Micro/202512081104</link>
-    <guid>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Micro/202512081104</guid>
-    <description><![CDATA[ Tried a Mei-Lin + Mika + Cassius team, and it worked really well. ]]></description>
-    <pubDate>Mon, 08 Dec 2025 02:08:08 GMT</pubDate>
-  </item><item>
-    <title>Site todo</title>
-    <link>https://wiki.invisibleparade.com/About/Site-todo</link>
-    <guid>https://wiki.invisibleparade.com/About/Site-todo</guid>
-    <description><![CDATA[ In addition to using this site as a general wiki for my thoughts, I’m eyeing the possibility of migrating my entire blog to this format. ]]></description>
-    <pubDate>Fri, 05 Dec 2025 07:33:22 GMT</pubDate>
-  </item><item>
-    <title>Forbidden Catalysts</title>
-    <link>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Events/Forbidden-Catalysts</link>
-    <guid>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Events/Forbidden-Catalysts</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Fri, 05 Dec 2025 07:32:37 GMT</pubDate>
-  </item><item>
-    <title>Duplicating cards effectively</title>
-    <link>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Duplicating-cards-effectively</link>
-    <guid>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Duplicating-cards-effectively</guid>
-    <description><![CDATA[ A lot of characters benefit greatly from having a key card duplicated as many times as possible. ]]></description>
-    <pubDate>Fri, 05 Dec 2025 07:26:08 GMT</pubDate>
   </item>
     </channel>
   </rss>

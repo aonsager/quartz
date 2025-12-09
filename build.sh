@@ -20,7 +20,7 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-rsync -av --exclude '.*' --delete "$CONTENT_SOURCE" content/
+rsync -av --exclude '.*' --exclude '_*' --delete "$CONTENT_SOURCE" content/
 
 if [ "$DO_SERVE" = true ]; then
 	npx quartz build --serve
