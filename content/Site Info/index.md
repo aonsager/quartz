@@ -1,3 +1,4 @@
 ---
-title: 01 Site Info
+title: Site Info
+order: 10
 ---

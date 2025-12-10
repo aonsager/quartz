@@ -4,3 +4,6 @@
 	- https://youtu.be/Gt2tYzM93h4?si=xRlp2b-z7FMo9xUz
 - Coding Trance Music from Scratch (Again)
 	- https://www.youtube.com/watch?v=iu5rnQkfO6M
+- Journaling in 2025
+- Strudel
+	- https://strudel.cc

@@ -1,6 +1,5 @@
 ---
 title: Transparent Leadership
-status: published
 date: 2025-12-09 15:51:00 +09:00
 colors:
   - "#737679"

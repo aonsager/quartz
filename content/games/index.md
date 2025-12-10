@@ -1,6 +1,7 @@
 ---
-title: 03 Games
+title: Games
 hideFolderContent: true
+order: 03
 ---
 
 This section of the wiki will be for compiling information about the games I play.

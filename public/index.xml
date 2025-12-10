@@ -6,7 +6,37 @@
       <description>Last 10 notes on Invisible Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>02 Posts</title>
+    <title>Coding Trance Music from Scratch (Again)</title>
+    <link>https://wiki.invisibleparade.com/Links/2025/coding-trance-music</link>
+    <guid>https://wiki.invisibleparade.com/Links/2025/coding-trance-music</guid>
+    <description><![CDATA[ Everything about this is so, incredibly cool. I need to learn more about this tool, and this creator. ]]></description>
+    <pubDate>Wed, 10 Dec 2025 13:13:00 GMT</pubDate>
+  </item><item>
+    <title>How to Play Scoundrel | The Best 1-Player Card Game of All Time</title>
+    <link>https://wiki.invisibleparade.com/Links/2025/scoundrel</link>
+    <guid>https://wiki.invisibleparade.com/Links/2025/scoundrel</guid>
+    <description><![CDATA[ I love the idea of creating a new card game while constraining yourself to using a standard deck of playing cards. ]]></description>
+    <pubDate>Wed, 10 Dec 2025 13:13:00 GMT</pubDate>
+  </item><item>
+    <title>Coding</title>
+    <link>https://wiki.invisibleparade.com/Coding/</link>
+    <guid>https://wiki.invisibleparade.com/Coding/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 10 Dec 2025 12:49:14 GMT</pubDate>
+  </item><item>
+    <title>Games</title>
+    <link>https://wiki.invisibleparade.com/Games/</link>
+    <guid>https://wiki.invisibleparade.com/Games/</guid>
+    <description><![CDATA[ This section of the wiki will be for compiling information about the games I play. ]]></description>
+    <pubDate>Wed, 10 Dec 2025 12:49:05 GMT</pubDate>
+  </item><item>
+    <title>Post ideas</title>
+    <link>https://wiki.invisibleparade.com/Site-Info/Post-ideas</link>
+    <guid>https://wiki.invisibleparade.com/Site-Info/Post-ideas</guid>
+    <description><![CDATA[  Plain CSS www.zolkos.com/2025/12/03/vanilla-css-is-all-you-need Scoundrel youtu.be/Gt2tYzM93h4 Coding Trance Music from Scratch (Again) www.youtube.com/watch Journaling in 2025 Strudel strudel.cc . ]]></description>
+    <pubDate>Wed, 10 Dec 2025 05:46:45 GMT</pubDate>
+  </item><item>
+    <title>Posts</title>
     <link>https://wiki.invisibleparade.com/Posts/</link>
     <guid>https://wiki.invisibleparade.com/Posts/</guid>
     <description><![CDATA[  ]]></description>
@@ -18,19 +48,13 @@
     <description><![CDATA[ This site is build with Quartz v4, which is a static-site generator that transforms a folder of Markdown files into a website. ]]></description>
     <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
   </item><item>
-    <title>Post ideas</title>
-    <link>https://wiki.invisibleparade.com/Site-Info/Post-ideas</link>
-    <guid>https://wiki.invisibleparade.com/Site-Info/Post-ideas</guid>
-    <description><![CDATA[  Plain CSS www.zolkos.com/2025/12/03/vanilla-css-is-all-you-need Scoundrel youtu.be/Gt2tYzM93h4 Coding Trance Music from Scratch (Again) www.youtube.com/watch . ]]></description>
-    <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
-  </item><item>
     <title>Site todo</title>
     <link>https://wiki.invisibleparade.com/Site-Info/Site-todo</link>
     <guid>https://wiki.invisibleparade.com/Site-Info/Site-todo</guid>
     <description><![CDATA[ In addition to using this site as a general wiki for my thoughts, I’m eyeing the possibility of migrating my entire blog to this format. ]]></description>
     <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
   </item><item>
-    <title>01 Site Info</title>
+    <title>Site Info</title>
     <link>https://wiki.invisibleparade.com/Site-Info/</link>
     <guid>https://wiki.invisibleparade.com/Site-Info/</guid>
     <description><![CDATA[  ]]></description>
@@ -41,30 +65,6 @@
     <guid>https://wiki.invisibleparade.com/about</guid>
     <description><![CDATA[  My name is Alex. I grew up near Boulder, CO and spent most of my childhood reading books, playing music, and playing video games. ]]></description>
     <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
-  </item><item>
-    <title>Invisible Wiki</title>
-    <link>https://wiki.invisibleparade.com/</link>
-    <guid>https://wiki.invisibleparade.com/</guid>
-    <description><![CDATA[ Hello, and welcome to my website. Web development is one of my favorite hobbies, and becoming a proficient writer is one of my greatest ambitions. ]]></description>
-    <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
-  </item><item>
-    <title>04 Coding</title>
-    <link>https://wiki.invisibleparade.com/Coding/</link>
-    <guid>https://wiki.invisibleparade.com/Coding/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 10 Dec 2025 05:40:42 GMT</pubDate>
-  </item><item>
-    <title>03 Games</title>
-    <link>https://wiki.invisibleparade.com/Games/</link>
-    <guid>https://wiki.invisibleparade.com/Games/</guid>
-    <description><![CDATA[ This section of the wiki will be for compiling information about the games I play. ]]></description>
-    <pubDate>Wed, 10 Dec 2025 05:40:34 GMT</pubDate>
-  </item><item>
-    <title>CSS</title>
-    <link>https://wiki.invisibleparade.com/Coding/CSS</link>
-    <guid>https://wiki.invisibleparade.com/Coding/CSS</guid>
-    <description><![CDATA[ Colors First define your basic colors using OKLCH. ]]></description>
-    <pubDate>Wed, 10 Dec 2025 03:06:33 GMT</pubDate>
   </item>
     </channel>
   </rss>

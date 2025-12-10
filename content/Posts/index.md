@@ -1,3 +1,4 @@
 ---
-title: 02 Posts
+title: Posts
+order: 20
 ---
