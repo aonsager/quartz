@@ -6,6 +6,48 @@
       <description>Last 10 notes on Invisible Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>02 Posts</title>
+    <link>https://wiki.invisibleparade.com/Posts/</link>
+    <guid>https://wiki.invisibleparade.com/Posts/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
+  </item><item>
+    <title>Colophon</title>
+    <link>https://wiki.invisibleparade.com/Site-Info/Colophon</link>
+    <guid>https://wiki.invisibleparade.com/Site-Info/Colophon</guid>
+    <description><![CDATA[ This site is build with Quartz v4, which is a static-site generator that transforms a folder of Markdown files into a website. ]]></description>
+    <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
+  </item><item>
+    <title>Post ideas</title>
+    <link>https://wiki.invisibleparade.com/Site-Info/Post-ideas</link>
+    <guid>https://wiki.invisibleparade.com/Site-Info/Post-ideas</guid>
+    <description><![CDATA[  Plain CSS www.zolkos.com/2025/12/03/vanilla-css-is-all-you-need Scoundrel youtu.be/Gt2tYzM93h4 Coding Trance Music from Scratch (Again) www.youtube.com/watch . ]]></description>
+    <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
+  </item><item>
+    <title>Site todo</title>
+    <link>https://wiki.invisibleparade.com/Site-Info/Site-todo</link>
+    <guid>https://wiki.invisibleparade.com/Site-Info/Site-todo</guid>
+    <description><![CDATA[ In addition to using this site as a general wiki for my thoughts, I’m eyeing the possibility of migrating my entire blog to this format. ]]></description>
+    <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
+  </item><item>
+    <title>01 Site Info</title>
+    <link>https://wiki.invisibleparade.com/Site-Info/</link>
+    <guid>https://wiki.invisibleparade.com/Site-Info/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
+  </item><item>
+    <title>About Me</title>
+    <link>https://wiki.invisibleparade.com/about</link>
+    <guid>https://wiki.invisibleparade.com/about</guid>
+    <description><![CDATA[  My name is Alex. I grew up near Boulder, CO and spent most of my childhood reading books, playing music, and playing video games. ]]></description>
+    <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
+  </item><item>
+    <title>Invisible Wiki</title>
+    <link>https://wiki.invisibleparade.com/</link>
+    <guid>https://wiki.invisibleparade.com/</guid>
+    <description><![CDATA[ Hello, and welcome to my website. Web development is one of my favorite hobbies, and becoming a proficient writer is one of my greatest ambitions. ]]></description>
+    <pubDate>Wed, 10 Dec 2025 05:43:23 GMT</pubDate>
+  </item><item>
     <title>04 Coding</title>
     <link>https://wiki.invisibleparade.com/Coding/</link>
     <guid>https://wiki.invisibleparade.com/Coding/</guid>
@@ -18,53 +60,11 @@
     <description><![CDATA[ This section of the wiki will be for compiling information about the games I play. ]]></description>
     <pubDate>Wed, 10 Dec 2025 05:40:34 GMT</pubDate>
   </item><item>
-    <title>01 Site Info</title>
-    <link>https://wiki.invisibleparade.com/Site-Info/</link>
-    <guid>https://wiki.invisibleparade.com/Site-Info/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 10 Dec 2025 05:40:26 GMT</pubDate>
-  </item><item>
-    <title>02 Posts</title>
-    <link>https://wiki.invisibleparade.com/Posts/</link>
-    <guid>https://wiki.invisibleparade.com/Posts/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Wed, 10 Dec 2025 05:40:19 GMT</pubDate>
-  </item><item>
-    <title>About Me</title>
-    <link>https://wiki.invisibleparade.com/about</link>
-    <guid>https://wiki.invisibleparade.com/about</guid>
-    <description><![CDATA[  My name is Alex. I grew up near Boulder, CO and spent most of my childhood reading books, playing music, and playing video games. ]]></description>
-    <pubDate>Wed, 10 Dec 2025 05:21:09 GMT</pubDate>
-  </item><item>
-    <title>Colophon</title>
-    <link>https://wiki.invisibleparade.com/Site-Info/Colophon</link>
-    <guid>https://wiki.invisibleparade.com/Site-Info/Colophon</guid>
-    <description><![CDATA[ This site is build with Quartz v4, which is a static-site generator that transforms a folder of Markdown files into a website. ]]></description>
-    <pubDate>Wed, 10 Dec 2025 04:51:32 GMT</pubDate>
-  </item><item>
     <title>CSS</title>
     <link>https://wiki.invisibleparade.com/Coding/CSS</link>
     <guid>https://wiki.invisibleparade.com/Coding/CSS</guid>
     <description><![CDATA[ Colors First define your basic colors using OKLCH. ]]></description>
     <pubDate>Wed, 10 Dec 2025 03:06:33 GMT</pubDate>
-  </item><item>
-    <title>Post ideas</title>
-    <link>https://wiki.invisibleparade.com/Site-Info/Post-ideas</link>
-    <guid>https://wiki.invisibleparade.com/Site-Info/Post-ideas</guid>
-    <description><![CDATA[  Plain CSS www.zolkos.com/2025/12/03/vanilla-css-is-all-you-need Scoundrel youtu.be/Gt2tYzM93h4 . ]]></description>
-    <pubDate>Tue, 09 Dec 2025 08:14:20 GMT</pubDate>
-  </item><item>
-    <title>Site todo</title>
-    <link>https://wiki.invisibleparade.com/Site-Info/Site-todo</link>
-    <guid>https://wiki.invisibleparade.com/Site-Info/Site-todo</guid>
-    <description><![CDATA[ In addition to using this site as a general wiki for my thoughts, I’m eyeing the possibility of migrating my entire blog to this format. ]]></description>
-    <pubDate>Tue, 09 Dec 2025 06:52:34 GMT</pubDate>
-  </item><item>
-    <title>Transparent Leadership</title>
-    <link>https://wiki.invisibleparade.com/Posts/transparent-leadership</link>
-    <guid>https://wiki.invisibleparade.com/Posts/transparent-leadership</guid>
-    <description><![CDATA[ From Transparent Leadership Beats Servant Leadership, by Chris at Entropic Thoughts: In my book, a good leader coaches people, connects people, […] creates direct links between supply and demand (instead of deliberately making themselves a middle man), […] generally makes themselves redundant. ]]></description>
-    <pubDate>Tue, 09 Dec 2025 06:51:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
