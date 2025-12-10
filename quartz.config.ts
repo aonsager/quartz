@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: "wiki.invisibleparade.com",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".*", "_*"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -27,15 +27,15 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#faf8f8", // Page background
+          lightgray: "#e5e5e5", // Borders
+          gray: "#b8b8b8", // Graph links, heavier borders
+          darkgray: "#4e4e4e", // Body text
+          dark: "#2b2b2b", // Header text and icons
+          secondary: "#284b63", // Link color, current graph node
+          tertiary: "#84a59d", // Hover states and visited graph nodes
+          highlight: "rgba(143, 159, 169, 0.15)", // Internal link bg, highlighted text
+          textHighlight: "#fff23688", // Markdown highlighted text bg
         },
         darkMode: {
           light: "#161618",

@@ -1,0 +1,5 @@
+- Plain CSS 
+	- https://www.zolkos.com/2025/12/03/vanilla-css-is-all-you-need
+- Scoundrel
+	- https://youtu.be/Gt2tYzM93h4?si=xRlp2b-z7FMo9xUz
+- 

@@ -59,6 +59,11 @@ pre {
 	padding: 0.5rem 1rem;
 }
 
+blockquote {
+	overflow: auto;
+	background-color: var(--highlight);
+}
+
 .table-container table {
 	border-collapse: collapse;
     margin: 0rem;
