@@ -3,7 +3,7 @@ title: Chaos Zero Nightmare
 hideFolderContent: true
 ---
 
-# Actively farming characters
+## Actively farming characters
 
 <h2 class="character-header header-red">
   Mei-Lin

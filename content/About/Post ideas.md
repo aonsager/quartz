@@ -1,0 +1,3 @@
+- Journaling in 2025
+- Strudel
+	- https://strudel.cc
