@@ -1,3 +1,10 @@
+---
+aliases:
+  - Colophon
+title: Colophon
+---
+
+
 This site is build with [Quartz v4](https://quartz.jzhao.xyz), which is a static-site generator that transforms a folder of Markdown files into a website. 
 
 It's designed to work well with [Obsidian's](https://obsidian.md) features, and that is what I use to write my content. I'm not _that_ deep in the Obsidian ecosystem, and I don't really use any advanced features, but everything about it, especially PC/Mobile cross-functionality, is pretty good.

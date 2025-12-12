@@ -1,6 +1,8 @@
 ---
 title: Chaos Zero Nightmare
 hideFolderContent: true
+aliases:
+  - Chaos Zero Nightmare
 ---
 
 ## Actively farming characters

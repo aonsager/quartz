@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Invisible Wiki</title>
+      <title>Invisible Parade</title>
       <link>https://wiki.invisibleparade.com</link>
-      <description>Last 10 notes on Invisible Wiki</description>
+      <description>Last 10 notes on Invisible Parade</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Posts</title>
+    <link>https://wiki.invisibleparade.com/posts/</link>
+    <guid>https://wiki.invisibleparade.com/posts/</guid>
+    <description><![CDATA[ I write these thinking that somebody might read them, so they have a little bit of polish. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 07:08:37 GMT</pubDate>
+  </item><item>
+    <title>Programmers: Stop Whining, Be Productive</title>
+    <link>https://wiki.invisibleparade.com/posts/programmers-stop-whining-be-productive</link>
+    <guid>https://wiki.invisibleparade.com/posts/programmers-stop-whining-be-productive</guid>
+    <description><![CDATA[  Update 2019 10 years later, I have posted a reflection on this piece here I was pointed to Paul Graham’s post about programmers running on a separate schedule than other people. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 06:43:24 GMT</pubDate>
+  </item><item>
+    <title>Colophon</title>
+    <link>https://wiki.invisibleparade.com/about/colophon</link>
+    <guid>https://wiki.invisibleparade.com/about/colophon</guid>
+    <description><![CDATA[ This site is build with Quartz v4, which is a static-site generator that transforms a folder of Markdown files into a website. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 05:37:20 GMT</pubDate>
+  </item><item>
+    <title>Contact me</title>
+    <link>https://wiki.invisibleparade.com/about/contact</link>
+    <guid>https://wiki.invisibleparade.com/about/contact</guid>
+    <description><![CDATA[ Please feel free to get in touch! It would make me very happy. I don’t get a lot of views here, so I will probably respond very soon. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 05:25:25 GMT</pubDate>
+  </item><item>
+    <title>My AI manifesto</title>
+    <link>https://wiki.invisibleparade.com/about/ai</link>
+    <guid>https://wiki.invisibleparade.com/about/ai</guid>
+    <description><![CDATA[ This is my personal manifesto for how I will and will not use generative AI. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 05:21:33 GMT</pubDate>
+  </item><item>
+    <title>What I&#039;m doing /now</title>
+    <link>https://wiki.invisibleparade.com/about/now</link>
+    <guid>https://wiki.invisibleparade.com/about/now</guid>
+    <description><![CDATA[ Personal Life Nothing much has changed for our family these past few years, and that is by design. Work is stable, life is stable, everybody is happy. ]]></description>
+    <pubDate>Fri, 12 Dec 2025 05:20:54 GMT</pubDate>
+  </item><item>
     <title>Farming Strategy</title>
     <link>https://wiki.invisibleparade.com/games/Chaos-Zero-Nightmare/Farming-Strategy</link>
     <guid>https://wiki.invisibleparade.com/games/Chaos-Zero-Nightmare/Farming-Strategy</guid>
@@ -29,42 +65,6 @@
     <guid>https://wiki.invisibleparade.com/links/</guid>
     <description><![CDATA[ These are things I found around the internet and liked enough to save. ]]></description>
     <pubDate>Thu, 11 Dec 2025 06:32:51 GMT</pubDate>
-  </item><item>
-    <title>Micro</title>
-    <link>https://wiki.invisibleparade.com/micro/</link>
-    <guid>https://wiki.invisibleparade.com/micro/</guid>
-    <description><![CDATA[ My tweets toots are mirrored here. ]]></description>
-    <pubDate>Thu, 11 Dec 2025 06:32:44 GMT</pubDate>
-  </item><item>
-    <title>Notes</title>
-    <link>https://wiki.invisibleparade.com/notes/</link>
-    <guid>https://wiki.invisibleparade.com/notes/</guid>
-    <description><![CDATA[ A jumble of assorted information. ]]></description>
-    <pubDate>Thu, 11 Dec 2025 06:32:39 GMT</pubDate>
-  </item><item>
-    <title>PageList</title>
-    <link>https://wiki.invisibleparade.com/about/Quartz-customizations/PageList</link>
-    <guid>https://wiki.invisibleparade.com/about/Quartz-customizations/PageList</guid>
-    <description><![CDATA[ I’m probably going to end up tweaking this class a lot. Don’t show tags on the page list It just takes up too much space. ]]></description>
-    <pubDate>Thu, 11 Dec 2025 06:28:35 GMT</pubDate>
-  </item><item>
-    <title>Overview plugin</title>
-    <link>https://wiki.invisibleparade.com/about/Quartz-customizations/Overview-plugin</link>
-    <guid>https://wiki.invisibleparade.com/about/Quartz-customizations/Overview-plugin</guid>
-    <description><![CDATA[ I created a custom plugin to show a static list of the main sections of the site. ]]></description>
-    <pubDate>Thu, 11 Dec 2025 05:59:24 GMT</pubDate>
-  </item><item>
-    <title>Posts</title>
-    <link>https://wiki.invisibleparade.com/posts/</link>
-    <guid>https://wiki.invisibleparade.com/posts/</guid>
-    <description><![CDATA[ I write these hoping that somebody will read them, so they have a little polish. ]]></description>
-    <pubDate>Thu, 11 Dec 2025 05:37:48 GMT</pubDate>
-  </item><item>
-    <title>About Me</title>
-    <link>https://wiki.invisibleparade.com/about/</link>
-    <guid>https://wiki.invisibleparade.com/about/</guid>
-    <description><![CDATA[  My name is Alex. I grew up near Boulder, CO and spent most of my childhood reading books, playing music, and playing video games. ]]></description>
-    <pubDate>Thu, 11 Dec 2025 05:16:16 GMT</pubDate>
   </item>
     </channel>
   </rss>

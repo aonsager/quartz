@@ -3,4 +3,4 @@ title: Posts
 order: 20
 ---
 
-I write these hoping that somebody will read them, so they have a little polish.
+I write these thinking that somebody might read them, so they have a little bit of polish.

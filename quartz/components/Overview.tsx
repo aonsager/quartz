@@ -11,7 +11,7 @@ export default ((userOpts?: Options) => {
   function Overview(props: QuartzComponentProps) {
  
 	  return (
-			<div class="overview">
+			<div class="overview desktop-only">
 				<div class="section">
 			   	<h3>
 						<a href="/about/">About</a>
