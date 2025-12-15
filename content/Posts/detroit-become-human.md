@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: 'Detroit: Become Human'
 slug: detroit-become-human
+date: 2020-07-15
 link:
 image:
 colors:
@@ -23,9 +20,11 @@ archive:
 - games
 ---
 
-{% include image.html image="2020/detroit.jpg" %}
+<image src="assets/images/posts/2020/detroit.jpg" title="Detroit Become Human image" />
 
-<div class="aside">In this review, I'll talk about a few parts of the game that stood out to me, and I'll do my best to do so while avoiding spoilers.</div>
+> [!NOTE]
+> In this review, I'll talk about a few parts of the game that stood out to me, and I'll do my best to do so while avoiding spoilers.
+
 
 *Detroit: Become Human* is a story-heavy adventure game developed by Quantic Dream, the studio I knew best as the creators of *Heavy Rain*.
 
@@ -51,7 +50,7 @@ But it was this character that I had the most difficulty playing as the story pr
 
 *Detroit: Become Human* shows you how your decisions affect the story in the form of a map with branches leading to different outcomes.
 
-{% include image.html image="2020/detroit_map.jpg" description="The story map of the first chapter"%}
+<image src="assets/images/posts/2020/detroit_map.jpg" alt="The story map of the first chapter" />
 
 I'm not sure if this is a feature common to adventure games (I hadn't seen it before), but this was a godsend when making multiple playthroughs. You can even jump to a point in the story that you had already seen and start playing again from that point, free to make different decisions to unlock new parts of the story. You can't help but wonder what would have changed if you acted a different way, and this lets you see without having to start the game from the beginning and skip through 80% identical cutscenes. It was because of this freedom and ease of access that *Detroit: Become Human* became the first game in recent memory in which I unlocked 100% of achievements.
 

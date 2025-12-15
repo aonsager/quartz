@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Internet in a Box
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 slug: internet-in-a-box
 date: '2025-05-01 12:41:00 +0900'
 link: https://internet-in-a-box.org
@@ -27,6 +24,8 @@ blurb: Internet-in-a-Box acts as a Wi-Fi hotspot for remote locations, with info
   preloaded to serve the community. Wikipedia, eBooks, online courses, medical reference material, the
   possibilities are endless.
 ---
+
+https://internet-in-a-box.org
 
 > Internet-in-a-Box “learning hotspots” are used in dozens of countries, to give everyone a chance, e.g. in remote mountain villages in India.  
 > It works without internet — like a community fountain, but for the mind — wirelessly serving anyone nearby with a smartphone, tablet or laptop.

@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Natural Lighting in the Office
 slug: natural-lighting-in-the-office
+date: 2019-04-08
 link:
 colors:
 - "#676365"

@@ -1,11 +1,8 @@
 ---
 layout: post
 title: When a music festival was cancelled, idol fans supported the local community
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 slug: momokuro-fans
-date: '2025-04-21 12:44:00 +0900'
+date: 2025-04-21
 link: https://news.yahoo.co.jp/articles/f3dc7027f17ec3d90e0da75d8f622e12452f471a
 image:
 image_alt:
@@ -28,7 +25,7 @@ blurb: Uplifting news from Japan. When a music festival was cancelled in the fac
   took it upon themselves to support the local community in its stead.
 ---
 
-Some uplifting news from Japan:
+Some [uplifting news from Japan](https://news.yahoo.co.jp/articles/f3dc7027f17ec3d90e0da75d8f622e12452f471a):
 
 On April 13th in Shibata City of Niigata prefecture (Japan), the popular idol group [Momoiro Clover Z](https://www.momoclo.net) had been planning a large music festival in cooperation with a large number of other artists, as well as local police, schools, and city government. However, on the day of festival the weather took a turn for the worse, and warnings were issued for strong winds, flash floods, and avalanches.
 

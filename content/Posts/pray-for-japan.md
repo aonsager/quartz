@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Pray for Japan
 link: http://prayforjapan.jp/
+date: 2011-05-14
 tags:
 - japan
 - tsunami

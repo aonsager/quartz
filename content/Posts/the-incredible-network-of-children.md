@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: The Incredible Network of Children
+date: 2009-12-21
 link:
 tags:
 - children

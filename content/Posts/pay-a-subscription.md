@@ -1,9 +1,6 @@
 ---
 layout: post
 title: If you love something, pay a subscription fee
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 slug: pay-a-subscription
 date: '2025-05-15 10:39:00 +0900'
 link:

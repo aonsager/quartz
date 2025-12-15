@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Amazing Crossword Puzzle
+date: 2011-10-04
 link:
 tags:
 - crossword
@@ -17,7 +14,7 @@ colors:
 - "#B0B0AF"
 ---
 
-{% include image.html image="crossword.gif" width="500px" %}
+<img src="assets/images/posts/crossword.gif" title="crossword" width="500px" />
 
 The New York Times crossword puzzle the day before the 1996 presidential election.
 

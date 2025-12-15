@@ -1,24 +1,21 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
-title: 'Programmers: Stop Whining, Be Productive'
+title: "Programmers: Stop Whining, Be Productive"
 link:
 tags:
-- programming
-- business
-- manager
-- maker
-- work
+  - programming
+  - business
+  - manager
+  - maker
+  - work
 colors:
-- "#FFD606"
-- "#555555"
-- "#959595"
-- "#67636B"
-- "#6E3F2D"
+  - "#FFD606"
+  - "#555555"
+  - "#959595"
+  - "#67636B"
+  - "#6E3F2D"
 archive:
-- work
+  - work
+date: 2009-07-24
 ---
 
 

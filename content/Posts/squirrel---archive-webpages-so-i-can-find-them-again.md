@@ -1,11 +1,8 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Squirrel - Archive webpages so I can find them again
 slug: squirrel---archive-webpages-so-i-can-find-them-again
 link: https://github.com/aonsager/squirrel-archiver
+date: 2025-01-09
 image:
 colors:
 - "#5B5958"
@@ -23,7 +20,7 @@ archive:
 - coding
 ---
 
-{% include image.html image="2025/squirrel.png" %}
+<image src="assets/images/posts/2025/squirrel.png" title="Squirrel logo"/>
 
 I created a thing that lets me save webpage contents in a smart way. I know, there are a million bookmark managers and web archivers out there, but this one is for me. 
 
@@ -108,7 +105,7 @@ Now I have a single folder on my hard drive that holds all of the articles that 
 
 Searching the article contents is very fast, and I can use graph view to explore tags. I can probably do a lot to make it more useful, but for now it's pretty.
 
-{% include image.html image="2025/squirrel-graph.png" description="Obsidian graph view. Black nodes are notes, green nodes are tags" %}
+<image src="assets/images/posts/2025/squirrel-graph.png" description="Obsidian graph view. Black nodes are notes, green nodes are tags" />
 
 ### Bonus
 
@@ -135,4 +132,4 @@ I went through the bookmarks I had saved in various places and ran them all thro
 9. Creativity
 10. Javascript
 
-Sustainability and Environment were a surprise. I guess that when I read articles about those topics, I feel compelled to save them? 
+Sustainability and Environment were a surprise. I guess that when I read articles about those topics, I feel compelled to save them?

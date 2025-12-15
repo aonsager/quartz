@@ -1,11 +1,8 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: NAVA Ora Unica Wristwatch
 slug: nava-ora-unica-wristwatch
 link: https://www.navadesign.com/blog/ora-unica-design-watch/
+date: 2019-05-13
 image: ora-unica-watch.jpg
 colors:
 - "#363534"
@@ -20,7 +17,9 @@ tags:
 - review
 ---
 
-{% include image.html image="ora-unica-watch.jpg" width="540px" %}
+https://www.navadesign.com/blog/ora-unica-design-watch/
+
+<image src="assets/images/posts/ora-unica-watch.jpg" title="Wristwatch from Ora" width="540px" />
 
 I happened upon this watch in the mall over the weekend and loved how unconventional it is. The inner end of the loop acts as the hour hand, and the outer end is the minute hand. The in-between part seems to move freely, so you have a watch face that looks pretty different each time you look at it.
 

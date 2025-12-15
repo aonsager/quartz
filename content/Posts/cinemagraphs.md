@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Cinemagraphs
+date: 2011-09-28
 link:
 tags:
 - cinemagraph
@@ -18,7 +15,7 @@ colors:
 - "#635E56"
 ---
 
-{% include image.html image="cinemagraph-cab.gif" width="615px" %}
+<image src="assets/images/posts/cinemagraph-cab.gif" title="Cinemagraph" width="615" />
 
 These mostly-still images with subtle animations add a great new depth to photographs. 
 

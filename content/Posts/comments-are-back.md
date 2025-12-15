@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Comments are back
 slug: comments-are-back
+date: 2024-11-27
 link:
 image:
 colors:

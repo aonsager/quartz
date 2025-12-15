@@ -1,11 +1,8 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Reimagining Chess with AlphaZero
 slug: reimagining-chess-with-alphazero
 link: https://cacm.acm.org/magazines/2022/2/258230-reimagining-chess-with-alphazero/fulltext
+date: 2022-01-31
 image:
 colors:
 - "#00000000"
@@ -21,6 +18,8 @@ tags:
 - tech
 archive:
 ---
+
+https://cacm.acm.org/magazines/2022/2/258230-reimagining-chess-with-alphazero/fulltext
 
 > Modern chess is the culmination of centuries of experience, as well as an evolutionary sequence of rule adjustments from its inception in the 6th century to the modern rules we know today. While classical chess still captivates the minds of millions of players worldwide, the game is anything but static. Many variants have been proposed and played over the years by enthusiasts and theorists. They continue the evolutionary cycle by altering the board, piece placement, or the rules—offering players "something subtle, sparkling, or amusing which cannot be done in ordinary chess."
 

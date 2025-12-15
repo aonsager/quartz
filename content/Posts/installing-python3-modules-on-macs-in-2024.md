@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Installing Python3 modules on Macs in 2024
 slug: installing-python3-modules-on-macs-in-2024
+date: 2024-11-21
 link:
 image:
 colors:

@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Spaghetti Carbonara
 image: "carbonara.jpg"
+date: 2018-12-18
 tags:
 - cooking
 - pasta
@@ -21,7 +18,7 @@ colors:
 
 For a long time I thought I didn't like carbonara because the few I tried were too creamy and eggy. Recently I gave it another try because the picture in the menu looked delicious. It was excellent, and I decided I wanted to learn how to make it myself. I needed some practice before I felt comfortable with the timings, but overall it's a pretty simple recipe that wasn't hard to learn.
 
-{% include image.html image="carbonara.jpg" width="500px" %}
+<image src="assets/images/posts/carbonara.jpg" width="500px" />
 
 ## Ingredients
 

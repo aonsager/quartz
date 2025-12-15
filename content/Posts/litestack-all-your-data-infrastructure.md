@@ -1,11 +1,8 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: 'Litestack: All your data infrastructure'
 slug: litestack-all-your-data-infrastructure
 link: https://github.com/oldmoe/litestack
+date: 2024-12-24
 image:
 colors:
 - "#A19F9F"
@@ -23,7 +20,7 @@ archive:
 - coding
 ---
 
-From the repository: 
+From the [repository](https://github.com/oldmoe/litestack): 
 
 > Litestack is a Ruby gem that provides both Ruby and Ruby on Rails applications an all-in-one solution for web application data infrastructure. It exploits the power and embeddedness of SQLite to deliver a full-fledged SQL database, a fast cache , a robust job queue, a reliable message broker, a full text search engine and a metrics platform all in a single package.
 

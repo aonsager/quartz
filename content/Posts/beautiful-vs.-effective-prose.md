@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Beautiful vs. Effective Prose
 slug: beautiful-vs.-effective-prose
+date: 2021-12-16
 link:
 image:
 colors:

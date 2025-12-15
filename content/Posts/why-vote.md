@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Why vote?
 date: '2008-02-07T09:05:16+09:00'
 tags:

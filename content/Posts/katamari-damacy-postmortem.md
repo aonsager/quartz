@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Katamari Damacy postmortem
 slug: katamari-damacy-postmortem
 date: '2025-02-12 11:48:00 +0900'
@@ -27,7 +23,7 @@ slash:
 blurb: Game Developer republished a postmortem from 2004 about Namco's Katamari Damacy, written by the game's director Keita Takahashi.
 ---
 
-By Game Developer Magazine:
+From [Game Developer Magazine](https://www.gamedeveloper.com/design/postmortem-the-singular-design-of-namco-s-katamari-damacy-2004-):
 
 > We recently received a request to publish the Katamari Damacy postmortem from the December 2004 issue of Game Developer. It has been posted here in full for the first time in 2024 to celebrate the game's 20 year anniversary. Please enjoy.
 

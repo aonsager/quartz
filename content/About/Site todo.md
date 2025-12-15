@@ -11,7 +11,7 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 		- [x] Set up a workflow to easily write/save new files with the correct name and location (Obsidian script, or Shortcuts?)
 		- [ ] Display a game's micro posts on that game's top page
 - Blog section
-	- [ ] Make a folder for writing blog posts, and copy some over
+	- [x] Make a folder for writing blog posts, and copy some over
 	- [ ] Home page display
 		- [ ] List recent blog posts on the home page
 			- [ ] And micro-posts?
@@ -21,8 +21,10 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 		- [x] Generate the post's 5-color code
 		- [x] Generate tags for the post
 		- [x] Update the frontmatter
-	- [ ] Migrate all past blog posts
-		- [ ] Make sure that the URLs don't change
+	- [x] Migrate all past blog posts
+		- [x] Make sure that the URLs don't change
+	- [-] Show a post's link property if it exists
+		- It was easier to just add this to the body
 - Other
 	- [x] Set up automatic deploys (rsync) in Github Actions
 	- [x] [[Disable Folder Listings for certain index pages]]

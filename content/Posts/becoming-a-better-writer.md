@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Becoming a Better Writer
 date: '2009-03-25T15:39:05+09:00'
 tags:
@@ -10,7 +6,6 @@ tags:
 - opinion
 - writing
 - life
-tumblr_url: http://www.alexonsager.net/post/89619838/becoming-a-better-writer
 colors:
 - "#AEA394"
 - "#6C6C6C"

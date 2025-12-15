@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Web Links - November 2022
 slug: web-links---november-2022
+date: 2022-12-01
 link:
 image:
 colors:

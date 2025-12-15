@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Pluto - Closest Approach
 date: '2015-07-15T11:41:17+09:00'
 tags:
@@ -11,7 +7,6 @@ tags:
 - nasa
 - space
 - photo
-tumblr_url: http://www.alexonsager.net/post/124119861188/pluto-closest-approach
 colors:
 - "#4E4E4E"
 - "#4E4E4E"
@@ -25,4 +20,4 @@ colors:
 
 <p>And here is the best picture we had previously, taken by Hubble. Pretty amazing stuff</p>
 
-<p><img src="/assets/images/pluto-hubble-01.jpg" alt="Pluto" width="400px"/></p>
+<p><img src="/assets/images/posts/pluto-hubble-01.jpg" alt="Pluto" width="400px"/></p>

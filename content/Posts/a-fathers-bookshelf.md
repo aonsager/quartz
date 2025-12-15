@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: A Father's Bookshelf
 slug: a-fathers-bookshelf
+date: 2022-02-07
 link:
 image:
 colors:

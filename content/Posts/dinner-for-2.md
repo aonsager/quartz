@@ -1,15 +1,10 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Dinner for 2
 date: '2008-03-28T13:39:50+09:00'
 tags:
 - opinion
 - people
 - life
-tumblr_url: http://www.alexonsager.net/post/30049273/dinner-for-2
 colors:
 - "#AAA6A1"
 - "#5C3315"

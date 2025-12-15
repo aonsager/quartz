@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: The Photo Composition Challenge
 slug: the-compo-challenge
 date: '2025-03-24 20:56:00 +0900'
@@ -141,7 +137,7 @@ I was surprised that this exercise was the hardest for me. I tried not to rely o
 
 > [The Golden Spiral is] about arranging the elements in your photos along the lines of an imaginary spiral, so that it offers an easy and natural flow for the viewer to follow those elements to your subject.
 
-{% include image.html image="2025/golden_spiral.png" description="The Golden Spiral" %}
+<image src="assets/images/posts/2025/golden_spiral.png" title="The Golden Spiral" />
 
 In practice, this ended up being an exercise in imagination as much as photography, as finding subjects that lined up to this mathematically perfect spiral was pretty challenging.
 

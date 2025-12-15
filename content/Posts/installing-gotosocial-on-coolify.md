@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Installing GoToSocial on Coolify
 slug: installing-gotosocial-on-coolify
+date: 2024-12-27
 link:
 image:
 colors:
@@ -27,10 +24,10 @@ Following up to my [earlier post about the fediverse](/2024/12/02/i-want-to-love
 
 This would let me set up my own single-user server, which solves all of my misgivings about Mastodon.
 
-<div class="callout">
-<div class="title">Disclaimer:</div>
-I am a total novice at all things server-related! I am probably at least a little bit wrong about some of the things I write here. Please take my experience with a grain of salt, and correct me if you can.
-</div>
+
+> [!WARNING] Disclaimer
+> I am a total novice at all things server-related! I am probably at least a little bit wrong about some of the things I write here. Please take my experience with a grain of salt, and correct me if you can.
+
 
 I have a VPS with [Coolify](https://coolify.io) to manage the multiple apps I have running, and all things considered it makes things very easy.  
 I used a docker-compose file to deploy GoToSocial, and their [example file](https://raw.githubusercontent.com/superseriousbusiness/gotosocial/main/example/docker-compose/docker-compose.yaml) was almost perfect as-is.

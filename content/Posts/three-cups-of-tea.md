@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Three Cups of Tea
+date: 2009-12-10
 link:
 tags:
 - nonprofit

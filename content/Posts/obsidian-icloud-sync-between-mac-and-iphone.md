@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Obsidian iCloud sync between Mac and iPhone
 slug: obsidian-icloud-sync-between-mac-and-iphone
+date: 2022-10-05
 link: 
 image: 
 colors:

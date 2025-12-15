@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Pay to Win
 date: 2017-11-30 18:59 +0900
 tags:

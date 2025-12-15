@@ -2,7 +2,7 @@
 title: About Me
 ---
 
-<img src="images/myface.jpg" width="200" height="200" title="My face" alt="A photo of me sitting at an outdoor terrace, smiling and trying to keep my eyes open in the bright sunlight.">
+<img src="assets/images/myface.jpg" width="200" height="200" title="My face" alt="A photo of me sitting at an outdoor terrace, smiling and trying to keep my eyes open in the bright sunlight.">
 
 My name is Alex. I grew up near Boulder, CO and spent most of my childhood reading books, playing music, and playing video games. I learned programming by making bad games for my TI-83 calculator. The first things I published online were bad flash websites.
 

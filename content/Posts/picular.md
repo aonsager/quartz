@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Picular - Google, but for Colors
 link: https://picular.co/
+date: 2018-08-30
 tags:
 - web
 - design

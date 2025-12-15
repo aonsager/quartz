@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: What staying home has been like for me so far
 slug: what-staying-home-has-been-like-for-me-so-far
+date: 2020-04-07
 link:
 image:
 colors:

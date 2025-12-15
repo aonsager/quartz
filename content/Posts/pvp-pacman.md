@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: 'Game Idea: PvP Pac-Man'
+date: 2018-08-23
 tags:
 - game
 - idea
@@ -40,6 +37,6 @@ With the gameplay changes, the characters should be changed as well. Some other 
 
 ## Mockups
 
-{% include image.html image="pacman-pac.jpg" description="Pac-Man's point of view" %}
+<image src="assets/images/posts/pacman-pac.jpg" alt="Pac-Man's point of view" />
 
-{% include image.html image="pacman-ghosts.jpg" description="The ghosts' point of view" %}
+<image src="assets/images/posts/pacman-ghosts.jpg" alt="The ghosts' point of view" />

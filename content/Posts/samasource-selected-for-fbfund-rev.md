@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Samasource Selected for fbFund REV
 link:
+date: 2009-05-31
 tags:
 - samasource
 - facebook

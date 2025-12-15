@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Adding CSS Support for Dark Mode
 slug: adding-css-support-for-dark-mode
+date: 2019-04-18
 link:
 image: darkmode.png
 colors:
@@ -23,7 +20,7 @@ archive:
 - coding
 ---
 
-{% include image.html image="darkmode.png" width="600px" %}
+<image src="assets/images/posts/darkmode.png" title="Dark mode" width="600" />
 
 macOS Mojave added a system-wide Dark Mode, but it doesn't do much if all of the websites you see are still bright white. To address this, there is a new CSS media query `prefers-color-scheme` that can detect Dark Mode and change styles accordingly. There are three possible values: `no-preference`, `light`, and `dark`. You can read more in the [W3C specification](https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme).
 

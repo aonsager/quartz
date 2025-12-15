@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Identity and Community on the Fediverse
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 slug: identity-vs-community
-date: '2025-04-28 14:23:00 +0900'
+date: 2025-04-28
 link:
 image:
 image_alt:
@@ -23,12 +20,7 @@ tags:
 - resilience
 archive:
 slash:
-blurb: The Fediverse, a network of interconnected social media services, requires
-  users to choose a service for their account, tying their identity to that community.
-  This can be problematic if the community experiences issues like spam, moderation
-  problems, or shutdown. If we could decouple identity from community, like Reddit
-  did with subreddits, users could more freely participate in multiple communities
-  — and the network overall would be more accessible and resilient.
+blurb: The Fediverse, a network of interconnected social media services, requires users to choose a service for their account, tying their identity to that community. This can be problematic if the community experiences issues like spam, moderation problems, or shutdown. If we could decouple identity from community, like Reddit did with subreddits, users could more freely participate in multiple communities — and the network overall would be more accessible and resilient.
 ---
 
 [The Fediverse](https://fediverse.info), a network of interconnected social media services, requires users to choose a service for their account, tying their identity to that community. This can be problematic if the community experiences issues like spam, moderation problems, or shutdown. If we could decouple identity from community, like Reddit did with subreddits, users could more freely participate in multiple communities — and the network overall would be more accessible and resilient.
@@ -45,7 +37,7 @@ Anything you post online is saved to your chosen service, and is then broadcaste
 
 ## The problem with choosing a service
 
-When I first tried to join the Fediverse, [I hated the idea]({% link _posts/2024-12-02-i-want-to-love-mastodon.md %}) of needing to choose a service. Yes, you can connect and interact with anyone regardless of which service their account belongs to, so it seems like your choice of a service matters little. But consider the following hypothetical scenario:
+When I first tried to join the Fediverse, [[i-want-to-love-mastodon | I hated the idea]] of needing to choose a service. Yes, you can connect and interact with anyone regardless of which service their account belongs to, so it seems like your choice of a service matters little. But consider the following hypothetical scenario:
 
 ### Making a choice
 
@@ -73,7 +65,7 @@ There seems to be no good choice.
 
 ## Creating your own service
 
-That was a hypothetical scenario, but all of those things can — and have — happen. These are the things that I needed to consider when choosing a service, and it was paralyzing. Ultimately, I ended up side-stepping the decision by [creating my own server]({% link _posts/2024-12-27-installing-gotosocial-on-coolify.md %}).
+That was a hypothetical scenario, but all of those things can — and have — happen. These are the things that I needed to consider when choosing a service, and it was paralyzing. Ultimately, I ended up side-stepping the decision by [[installing-gotosocial-on-coolify | creating my own server]].
 
 This is fine, and everything works as expected. But, it is really hard to find and join communities when I'm starting with a home server of Population: One. 
 

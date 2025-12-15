@@ -37,6 +37,13 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Overview(),
+    // Component.RecentNotes({
+   	// 	showTags: false,
+	   // 	filter: (node) => {
+	   //      // only show pages in /posts/
+	   //      return node.filePath?.includes("/posts/") && !node.filePath?.includes("index")
+	   //    },
+	   //  }),
     // Component.Explorer(
     //   {
     //     useSavedState: false,
@@ -50,7 +57,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   afterBody: [
 	 	Component.ContentMeta(),
-	  Component.TagList(),
+	  // Component.TagList(),
   ],
 }
 

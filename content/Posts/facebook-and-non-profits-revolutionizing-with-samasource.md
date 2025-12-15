@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: 'Facebook and Non-Profits: Revolutionizing with Samasource'
+date: 2009-08-21
 link:
 tags:
 - facebook

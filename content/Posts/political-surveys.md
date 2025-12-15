@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Political surveys
 date: '2008-02-07T13:39:43+09:00'
 tags:

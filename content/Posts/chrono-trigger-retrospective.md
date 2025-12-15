@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Chrono Trigger Retrospective
 link: http://socksmakepeoplesexy.net/index.php?a=trigger
+date: 2010-10-23
 tags:
 - game
 - chrono trigger
@@ -19,6 +16,8 @@ colors:
 archive:
 - games
 ---
+
+http://socksmakepeoplesexy.net/index.php?a=trigger
 
 > Chrono Trigger basically began as a jam session — a couple of star designers and a manga artist getting together to brainstorm and seeing what they might produce. No pressure. No cynicism.
 >

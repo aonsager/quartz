@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Gogol Bordello – Oakland 2009
+date: 2009-10-26
 link:
 tags:
 - gogol bordello

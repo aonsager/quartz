@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Procrastination and Fear of Failure
 slug: procrastination-and-fear-of-failure
+date: 2022-04-12
 link: 
 image: 
 colors:

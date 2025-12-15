@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Google's AlphaZero Destroys Stockfish In 100-Game Match
 date: 2017-12-06 22:58 +0900
 link: https://www.chess.com/news/view/google-s-alphazero-destroys-stockfish-in-100-game-match
@@ -19,6 +15,8 @@ colors:
 - "#5B5B5B"
 - "#B55039"
 ---
+
+https://www.chess.com/news/view/google-s-alphazero-destroys-stockfish-in-100-game-match
 
 Google's AlphaZero program is a machine that plays chess, and it has managed to quickly become the strongest chess AI in the world by implementing machine learning techniques. While existing chess AIs have mostly been massive dictionaries of moves that are put together by humans, AlphaZero learned chess entirely on its own with minimal human input. 
 

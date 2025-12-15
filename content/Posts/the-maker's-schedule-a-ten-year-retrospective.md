@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: The Maker's Schedule - A Ten Year Retrospective
+date: 2019-02-04
 link:
 colors:
 - "#0229E3"
@@ -21,7 +18,7 @@ archive:
 - work
 ---
 
-10 years ago, I was fresh out of college and encountered [Paul Graham's essay](http://paulgraham.com/makersschedule.html) about the maker's schedule, and wrote [a response]({% post_url 2009-07-24-programmers-stop-whining-be-productive %}) disagreeing with the spirit of the article. While I knew and understood that programmers could be much more productive in one 10 hour chunk than in five 2 hour chunks, I felt like rearranging a business's operations based on these preferences was going overboard. The typical programmer as described seemed undisciplined, and I wrote that programmers needed to find ways to work around distractions, which are simply a fact of life.
+10 years ago, I was fresh out of college and encountered [Paul Graham's essay](http://paulgraham.com/makersschedule.html) about the maker's schedule, and wrote [[programmers-stop-whining-be-productive | a response]] disagreeing with the spirit of the article. While I knew and understood that programmers could be much more productive in one 10 hour chunk than in five 2 hour chunks, I felt like rearranging a business's operations based on these preferences was going overboard. The typical programmer as described seemed undisciplined, and I wrote that programmers needed to find ways to work around distractions, which are simply a fact of life.
 
 As expected the post got a lot of negative feedback, but it was all very informative. Rather than just telling me to shut up, many people shared their own views and explained where my reasoning might be shortsighted. One person said they would be interested in seeing how I would react to my own post in about 10 years time, so here I am.
 

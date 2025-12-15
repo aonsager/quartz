@@ -1,11 +1,8 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Why Switch Cartridges Taste Awful
 slug: why-switch-cartridges-taste-awful
 link: https://www.polygon.com/2017/3/1/14784140/nintendo-switch-cartridges-taste-awful-psa
+date: 2022-01-27
 image:
 colors:
 - "#63D424"
@@ -21,6 +18,8 @@ tags:
 - taste
 archive:
 ---
+
+https://www.polygon.com/2017/3/1/14784140/nintendo-switch-cartridges-taste-awful-psa
 
 > The Nintendo Switch is designed to be portable, so it doesn’t have a disc drive. Instead, its games come on cartridges, just like games for Nintendo’s handheld platforms stretching back to the original Game Boy. But there’s something different about Switch cartridges: *They taste awful*.
 >

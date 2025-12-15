@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Relationship Test - Dataclysm
 date: '2014-11-11T15:53:16+09:00'
 tags:
@@ -19,6 +15,8 @@ colors:
 - "#B2B2B2"
 - "#A59D9B"
 ---
+
+http://dataclysm.org/relationshiptest
 
 <blockquote>
 <p>My team and I wrote an app that will apply findings from a recent research paper to your Facebook graph. The app won’t post to your wall but it will show you both the shape of your friend network and which of your friends are most mathematically important to your life.</p>

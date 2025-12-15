@@ -1,11 +1,8 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: The First Image of a Black Hole
 slug: first-image-of-a-black-hole
 link: https://www.nsf.gov/news/news_summ.jsp?cntn_id=298276
+date: 2019-04-11
 image: blackhole.jpg
 colors:
 - "#6E0900"
@@ -21,7 +18,9 @@ tags:
 - photography
 ---
 
-{% include image.html image="blackhole.jpg" description="Credit: Event Horizon Telescope collaboration et al." %}
+https://www.nsf.gov/news/news_summ.jsp?cntn_id=298276
+
+<image src="assets/images/posts/blackhole.jpg" description="Credit: Event Horizon Telescope collaboration et al." width="" />
 
 For the first time ever, scientists have captured an image of a black hole. The black hole chosen is a supermassive black hole at the center of the Messier 87 galaxy, 55 million light-years away from Earth. This is huge news, since before this we only had theoretical proofs of black holes with no direct evidence.
 

@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Lucid Dreaming
+date: 2018-12-14
 tags:
 - personal
 - sleep

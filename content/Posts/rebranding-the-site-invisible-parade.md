@@ -1,10 +1,7 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: 'Rebranding the site: Invisible Parade'
 slug: rebranding-the-site-invisible-parade
+date: 2025-01-03
 link:
 image:
 colors:

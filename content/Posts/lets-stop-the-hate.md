@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Let’s stop the hate
 date: '2016-06-13T18:44:38+09:00'
 tags:
@@ -11,7 +7,6 @@ tags:
 - personal
 - people
 - politics
-tumblr_url: http://www.alexonsager.net/post/145851246773/lets-stop-the-hate
 colors:
 - "#363636"
 - "#C4A85A"

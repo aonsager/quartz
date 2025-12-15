@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Communication-driven productivity
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 slug: cdp
 date: '2025-06-05 15:45:00 +0900'
 link:

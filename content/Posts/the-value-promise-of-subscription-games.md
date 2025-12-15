@@ -1,8 +1,5 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
+date: 2018-10-18
 title: The Value Promise of Subscription Games
 tags:
 - game
@@ -26,7 +23,7 @@ A series of recent changes made to WoW were designed to motivate players to play
 
 ## What makes a subscription-based game worth its price?
 
-All games need to convince people that what they are buying (whether it's a complete game, an item, or another month of game time) is worth the price. [I wrote previously]({% post_url 2017-11-30-pay-to-win %}) about what mobile games do to make people want to buy extra items. Online games where players pay a fixed amount every month have a very different strategy.
+All games need to convince people that what they are buying (whether it's a complete game, an item, or another month of game time) is worth the price. [I wrote previously](pay-to-win) about what mobile games do to make people want to buy extra items. Online games where players pay a fixed amount every month have a very different strategy.
 
 Unlike games that sell items, games with a subscription model don't need to maximize revenue per user because everybody pays the same price. Instead, the most important metric is how many people will keep playing the following month. The total revenue per user is determined by how many months they spend playing the game.
 

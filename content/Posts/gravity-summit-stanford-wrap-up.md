@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: 'Gravity Summit Stanford: Wrap-up'
 date: '2009-05-09T13:25:58+09:00'
 tags:
@@ -10,7 +6,7 @@ tags:
 - analysis
 - communication
 - report
-tumblr_url: http://www.alexonsager.net/post/105313655/gravity-summit-stanford-wrap-up
+
 colors:
 - "#50251F"
 - "#0D3397"

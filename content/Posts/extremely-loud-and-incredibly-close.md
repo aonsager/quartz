@@ -1,9 +1,6 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: Extremely Loud and Incredibly Close
+date: 2009-07-08
 link: 
 tags:
 - book

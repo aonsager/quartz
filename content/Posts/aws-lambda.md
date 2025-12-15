@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: AWS Lambda
 date: '2014-11-14T11:33:00+09:00'
 tags:
@@ -19,6 +15,8 @@ colors:
 - "#3D454C"
 - "#FD3400"
 ---
+
+http://aws.amazon.com/lambda
 
 <blockquote>
   <p>You can trigger an AWS Lambda function to automatically create a thumbnail when an image is uploaded to Amazon S3, verify address updates in an Amazon DynamoDB table, or process click-stream data in an Amazon Kinesis stream, without having to manage any compute infrastructure.</p>

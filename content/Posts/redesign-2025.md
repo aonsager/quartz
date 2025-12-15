@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: A website redesign
 slug: redesign-2025
 date: '2025-04-18 14:02:00 +0900'
@@ -30,10 +26,13 @@ blurb: I've overhauled the design of my website, and am very happy with how it t
 
 I've overhauled the design of my website, and am very happy with how it turned out.
 
-{% include image.html image="2025/index-redesign.jpg" description="The root homepage. Old design on the left, new design on the right." %}
+<figure>
+    <img src='/assets/images/posts/2025/index-redesign.jpg' alt='The root homepage. Old design on the left, new design on the right.' class="center-image" style="max-height: 300px;"/>
+    <figcaption>The root homepage. Old design on the left, new design on the right.</figcaption>
+</figure>
 
 <figure>
-    <img src='/assets/images/2025/dark-redesign.jpg' alt='A post page in dark mode. Old design on the left, new design on the right.' class="center-image" style="max-height: 300px;"/>
+    <img src='/assets/images/posts/2025/dark-redesign.jpg' alt='A post page in dark mode. Old design on the left, new design on the right.' class="center-image" style="max-height: 300px;"/>
     <figcaption>A post page in dark mode. Old design on the left, new design on the right.</figcaption>
 </figure>
 

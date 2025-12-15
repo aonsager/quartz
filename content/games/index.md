@@ -4,7 +4,7 @@ hideFolderContent: true
 order: 3
 ---
 
-This section of the wiki will be for compiling information about the games I play.
+This section of the wiki will be for compiling information about the games I play. The list of games is incomplete, because I'll only write about the ones I care about.
 
 This includes reference material, notes on personal progression, and my thoughts about the game experience.
 
@@ -18,4 +18,12 @@ This includes reference material, notes on personal progression, and my thoughts
 
 |Title     | Status |
 | --- | --- |
-|   Fantasy Life i  |  ⏳ Hiatus   |
+|   Fantasy Life i  |  🎮 Playing   |
+|   God of War Ragnarök  |  🎁 Wishlist   |
+
+## PC
+
+|Title     | Status |
+| --- | --- |
+|   Kingdom Come: Deliverance  |  ⏳ Hiatus   |
+|   Kingdom Come: Deliverance 2  |  🎁 Wishlist   |

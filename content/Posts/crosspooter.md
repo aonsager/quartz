@@ -1,8 +1,4 @@
 ---
-layout: post
-nav_category: posts
-nav_category_color: blue
-slug_color: blue-light
 title: CrossPooter - Poot your toots around the web
 slug: crosspooter
 date: '2025-02-07 16:57:00 +0900'
@@ -29,7 +25,7 @@ blurb: A simple script for personal use, that reads the RSS feed of my website a
   posts the latest article to GoToSocial and Bluesky.
 ---
 
-{% include image.html image="projects/crosspooter.jpeg" description="CrossPooter logo, showing a smiling cartoon face among arrows branching away" %}
+<image src="assets/images/projects/crosspooter.jpeg" title="Crosspooter logo" alt="A smiling cartoon face among arrows branching away" />
 
 CrossPooter is a simple script for personal use, that reads the RSS feed of this website and posts the latest article to GoToSocial and Bluesky. It was inspired by [EchoFeed](https://echofeed.app), but I wanted to try my hand at making something similar myself.
 
