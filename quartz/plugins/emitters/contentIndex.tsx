@@ -62,12 +62,13 @@ function generateAtomFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?
   const createEntry = (slug: SimpleSlug, content: ContentDetails): string => {
     const fullUrl = `https://${joinSegments(base, encodeURI(slug))}`
     return `<entry>
-    <title>${escapeHTML(content.title)}</title>
-    <link href="${fullUrl}" rel="alternate" type="text/html" />
-    <id>${fullUrl}</id>
+    <title type="html">${escapeHTML(content.title)}</title>
+    <link href="${fullUrl}" rel="alternate" type="text/html" title="${escapeHTML(content.title)}"/>
     <published>${content.date?.toISOString()}</published>
     <updated>${content.date?.toISOString()}</updated>
+    <id>${fullUrl}</id>
     <content type="html" xml:base="${fullUrl}"><![CDATA[ ${content.richContent ?? content.description} ]]></content>
+    <summary type="html"><![CDATA[ ${content.content} ]]></summary>
   </entry>`
   }
 
@@ -88,12 +89,15 @@ function generateAtomFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?
 
   return `<?xml version="1.0" encoding="UTF-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>${escapeHTML(cfg.pageTitle)}</title>
-  <link href="https://${base}" rel="alternate" />
-  <link href="https://${joinSegments(base, "index.xml")}" rel="self" />
-  <id>https://${base}</id>
+	<generator uri="quartz.jzhao.xyz/" version="4">Quartz</generator>
+	<link href="https://${joinSegments(base, "index.xml")}" rel="self" type="application/atom+xml"/>
+	<link href="https://${base}" rel="alternate" type="text/html"/>
+	<author>
+    <name>Alex Onsager</name>
+  </author>
   <updated>${new Date().toISOString()}</updated>
-  <generator>Quartz -- quartz.jzhao.xyz</generator>
+  <id>https://${joinSegments(base, "index.xml")}</id>
+  <title type="html">${escapeHTML(cfg.pageTitle)}</title>
   ${items}
 </feed>`
 }
@@ -122,7 +126,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
             tags: file.data.frontmatter?.tags ?? [],
             content: file.data.text ?? "",
             richContent: opts?.rssFullHtml
-              ? stripSvg(toHtml(tree as Root, { allowDangerousHtml: true }))
+              ? toHtml(tree as Root, { allowDangerousHtml: true })
               : undefined,
             date: date,
             description: file.data.description ?? "",
@@ -137,6 +141,9 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           const hasFrontmatterDate = !!file.data.frontmatter?.date
 
           if (opts?.enableRSS && isPost && hasFrontmatterDate) {
+          	if (contentDetails.richContent) {
+          		contentDetails.richContent = stripSvg(contentDetails.richContent)
+           	}
             atomIndex.set(slug, contentDetails)
           }
         }

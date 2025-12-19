@@ -1,32 +1,37 @@
-name: Deploy Wiki
+name: Deploy to VPS
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v6
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Set up SSH
+      # (Insert your build steps here, e.g., hugo build, npm run build)
+
+      - name: Install SSH Key
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add Server to Known Hosts
+        # Prevents the "Are you sure you want to continue connecting?" interactive prompt
         run: |
           mkdir -p ~/.ssh
-          chmod 700 ~/.ssh
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
-          # Write private key
-          echo "${{ secrets.RSYNC_SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-
-          # Write known_hosts
-          echo "${{ secrets.RSYNC_KNOWN_HOSTS }}" > ~/.ssh/known_hosts
-          chmod 644 ~/.ssh/known_hosts
-
-      - name: Deploy via rsync
+      - name: Deploy with rsync
         run: |
-          rsync -avz --delete \
-            public/ \
-            alex@vps.invisibleparade.com:/srv/wiki/
+          # Flags:
+          # -a: archive mode (preserves permissions/times)
+          # -v: verbose
+          # -z: compress during transfer
+          # --delete: remove files on server that were deleted locally
+          # public/: trailing slash is CRITICAL. It means "contents of public", not "the folder public"
+          
+          rsync -avz --delete ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/wiki/
