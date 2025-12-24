@@ -36,14 +36,14 @@ export const defaultContentPageLayout: PageLayout = {
         // { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Overview(),
-    // Component.RecentNotes({
-   	// 	showTags: false,
-	   // 	filter: (node) => {
-	   //      // only show pages in /posts/
-	   //      return node.filePath?.includes("/posts/") && !node.filePath?.includes("index")
-	   //    },
-	   //  }),
+    //Component.Overview(),
+    Component.RecentNotes({
+   		showTags: false,
+	   	filter: (node) => {
+	        // only show pages with #meta-rss tag
+					return node.frontmatter?.metaRSS
+	      },
+	    }),
     // Component.Explorer(
     //   {
     //     useSavedState: false,
@@ -53,11 +53,12 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     //Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.TagList(),
+    //Component.Backlinks(),
   ],
   afterBody: [
 	 	Component.ContentMeta(),
-	  // Component.TagList(),
+	  
   ],
 }
 
@@ -79,7 +80,14 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Overview(),
+    // Component.Overview(),
+    Component.RecentNotes({
+   		showTags: false,
+	   	filter: (node) => {
+	        // only show pages with #meta-rss tag
+					return node.frontmatter?.metaRSS
+	      },
+	    }),
     // Component.Explorer(
     //   {
     //     useSavedState: false,

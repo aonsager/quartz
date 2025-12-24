@@ -15,18 +15,20 @@ title: Renoa
 
 | Shock | Suppression | Denial | Ideal | Desire | Imagination |
 | :--------------- | :---------- | :--------- |:--------- | :--------- | :--------- |
-| 🟧 4/5  | 🟧 4/5 | 🟧 4/5 | 🟧 5/5 | 🟧 5/5 | 🟧 4/5 |
-| Conqueror's | Conqueror's | Black Wing | Conqueror's | Black Wing | Conqueror's | 
-| **Attack** | **Defense** | **Health** | ✅️ **Crit %** | ✅️ **Void DMG** | ✅️ **Attack** |
-| ✅️ Crit % | ✅️ Attack | Defense | ✅️ Crit DMG | ✅️ Attack | ✅️ Crit DMG |
-| Health % | Health | Ego  | ✅️ Attack | Defense | ✅️ Crit % |
-| ✅️ Crit DMG | ✅️ Crit % | ✅️ Crit % | ✅️ Attack % | ✅️ Crit DMG | Defense % |
-| ✅️ Extra DMG | ✅️ Extra DMG | ✅️ Extra DMG | DOT | Health | Health % |
+| 🟧 5/5  | 🟧 5/5 | 🟧 5/5 | 🟧 5/5 | 🟧 5/5 | 🟧 5/5 |
+| Executioner | Executioner | Conqueror | Conqueror | Conqueror | Conqueror | 
+| **Attack** | **Defense** | **Health** | ✅️ **Crit 27%** | ✅️ **Attack** | ✅️ **Attack** |
+| ✅️ Crit 3.5% | ✅️ Extra DMG | Ego | ✅️ Crit DMG | Defense | ✅️ Crit DMG |
+| Health % | ✅️ Crit 4.5% | ✅️ Crit DMG  | ✅️ Attack | ✅️ Attack | ✅️ Crit 3.2% |
+| ✅️ Attack | Health | ✅️ Crit 2.6% | ✅️ Attack | ✅️ Crit 1.5% | Defense |
+| Defense | Health | Defense | DOT | ✅️ Extra DMG | Health |
+
+My Renoa without any gear has a base Crit% of 13%. If my target is 60% to trigger her potential node, and Slot IV will have 27% Crit, then I need to find 20% more from the remaining 5 slots. This means an average of 4% per slot. That is a lot!
 
 Todo
-- [ ] Change Black Wing to Executioner's
-- [ ] Raise all to +5
-- [ ] Get to 60% Crit %
+- [x] Change Black Wing to Executioner's
+- [x] Raise all to +5
+- [ ] Get to 60% Crit % (55.3)
 
 ## Target Deck ()
 

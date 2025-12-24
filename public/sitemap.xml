@@ -1,27 +1,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://wiki.invisibleparade.com/Apps</loc>
-    <lastmod>2025-12-15T22:54:22.000Z</lastmod>
+    <lastmod>2025-12-24T02:19:00.000Z</lastmod>
   </url><url>
-    <loc>https://wiki.invisibleparade.com/Coding/CSS-ideas</loc>
-    <lastmod>2025-12-11T03:07:50.000Z</lastmod>
-  </url><url>
-    <loc>https://wiki.invisibleparade.com/Coding/Quartz-customizations/Disable-Folder-Listings-for-certain-index-pages</loc>
-    <lastmod>2025-12-09T03:56:16.000Z</lastmod>
-  </url><url>
-    <loc>https://wiki.invisibleparade.com/Coding/Quartz-customizations/Links</loc>
-    <lastmod>2025-12-11T03:07:36.000Z</lastmod>
-  </url><url>
-    <loc>https://wiki.invisibleparade.com/Coding/Quartz-customizations/Overview-plugin</loc>
-    <lastmod>2025-12-11T05:59:24.000Z</lastmod>
-  </url><url>
-    <loc>https://wiki.invisibleparade.com/Coding/Quartz-customizations/PageList</loc>
-    <lastmod>2025-12-11T06:28:35.000Z</lastmod>
-  </url><url>
-    <loc>https://wiki.invisibleparade.com/Coding/direnv</loc>
-    <lastmod>2025-12-11T03:07:55.000Z</lastmod>
+    <loc>https://wiki.invisibleparade.com/CSS-ideas</loc>
+    <lastmod>2025-12-24T02:22:00.000Z</lastmod>
   </url><url>
     <loc>https://wiki.invisibleparade.com/Colophon</loc>
-    <lastmod>2025-12-12T05:37:20.000Z</lastmod>
+    <lastmod>2025-12-24T03:37:00.000Z</lastmod>
+  </url><url>
+    <loc>https://wiki.invisibleparade.com/Disable-Folder-Listings-for-certain-index-pages</loc>
+    <lastmod>2025-12-24T02:24:00.000Z</lastmod>
   </url><url>
     <loc>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Characters/Mei-Lin</loc>
     <lastmod>2025-12-08T04:46:04.000Z</lastmod>
@@ -33,7 +21,7 @@
     <lastmod>2025-12-09T02:28:25.000Z</lastmod>
   </url><url>
     <loc>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Characters/Renoa</loc>
-    <lastmod>2025-12-05T01:47:07.000Z</lastmod>
+    <lastmod>2025-12-22T05:24:16.000Z</lastmod>
   </url><url>
     <loc>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Characters/template</loc>
     <lastmod>2025-12-09T02:26:52.000Z</lastmod>
@@ -56,15 +44,45 @@
     <loc>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Micro/202512081104</loc>
     <lastmod>2025-12-08T02:08:08.000Z</lastmod>
   </url><url>
+    <loc>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/Micro/202512241029</loc>
+    <lastmod>2025-12-24T01:37:11.000Z</lastmod>
+  </url><url>
     <loc>https://wiki.invisibleparade.com/Games/Chaos-Zero-Nightmare/</loc>
     <lastmod>2025-12-12T05:40:47.000Z</lastmod>
   </url><url>
     <loc>https://wiki.invisibleparade.com/Games/</loc>
     <lastmod>2025-12-15T02:37:20.000Z</lastmod>
   </url><url>
+    <loc>https://wiki.invisibleparade.com/Links</loc>
+    <lastmod>2025-12-24T02:25:00.000Z</lastmod>
+  </url><url>
+    <loc>https://wiki.invisibleparade.com/Overview-Quartz-plugin</loc>
+    <lastmod>2025-12-24T02:25:00.000Z</lastmod>
+  </url><url>
+    <loc>https://wiki.invisibleparade.com/PageList</loc>
+    <lastmod>2025-12-24T02:26:00.000Z</lastmod>
+  </url><url>
     <loc>https://wiki.invisibleparade.com/Site-todo</loc>
-    <lastmod>2025-12-15T06:49:10.000Z</lastmod>
+    <lastmod>2025-12-24T02:29:00.000Z</lastmod>
+  </url><url>
+    <loc>https://wiki.invisibleparade.com/This-site's-organization</loc>
+    <lastmod>2025-12-24T02:29:00.000Z</lastmod>
+  </url><url>
+    <loc>https://wiki.invisibleparade.com/direnv</loc>
+    <lastmod>2025-12-24T02:27:00.000Z</lastmod>
+  </url><url>
+    <loc>https://wiki.invisibleparade.com/future</loc>
+    <lastmod>2025-12-24T03:25:00.000Z</lastmod>
+  </url><url>
+    <loc>https://wiki.invisibleparade.com/hacked</loc>
+    <lastmod>2025-12-23T05:44:00.000Z</lastmod>
   </url><url>
     <loc>https://wiki.invisibleparade.com/</loc>
-    <lastmod>2025-12-12T07:11:39.000Z</lastmod>
+    <lastmod>2025-12-19T06:33:15.000Z</lastmod>
+  </url><url>
+    <loc>https://wiki.invisibleparade.com/media</loc>
+    <lastmod>2025-12-24T03:29:00.000Z</lastmod>
+  </url><url>
+    <loc>https://wiki.invisibleparade.com/now</loc>
+    <lastmod>2025-02-13T05:34:00.000Z</lastmod>
   </url></urlset>
