@@ -19,6 +19,7 @@ Here are some other pages that may be interesting:
 - [[now]]: What I am doing now
 - [[media]]: A log of the media I enjoyed (or not)
 - [[future]]: My thoughts and hopes about the rest of my life
+- [[past]]: Looking back on how things went
 
 ## About this site
 
@@ -37,7 +38,7 @@ Here are some other pages that may be interesting:
 - [[Colophon]]
 - [[This site's organization]]
 - [[Site todo]]
-- #Quartz for other info about the software and how I use it
+- #quartz for other info about the software and how I use it
 
 ### Games
 

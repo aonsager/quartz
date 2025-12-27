@@ -18,9 +18,9 @@ tags:
 ---
 
 
-This site is build with #Quartz (https://quartz.jzhao.xyz), which is a static-site generator that transforms a folder of Markdown files into a website. 
+This site is build with #quartz (https://quartz.jzhao.xyz), which is a static-site generator that transforms a folder of Markdown files into a website. 
 
-It's designed to work well with #Obsidian (https://obsidian.md) 's features, and that is what I use to write my content. I'm not _that_ deep in the Obsidian ecosystem, and I don't really use any advanced features, but everything about it, especially PC/Mobile cross-functionality, is pretty good.
+It's designed to work well with #obsidian (https://obsidian.md) 's features, and that is what I use to write my content. I'm not _that_ deep in the Obsidian ecosystem, and I don't really use any advanced features, but everything about it, especially PC/Mobile cross-functionality, is pretty good.
 
 Because I access my Obsidian Vault on both desktop and mobile, the vault is saved in a weird location in my iCloud drive:
 

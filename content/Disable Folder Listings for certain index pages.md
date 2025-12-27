@@ -13,7 +13,7 @@ metaRSS: false
 ---
 
 
-#Quartz [automatically generates index pages for folders](https://quartz.jzhao.xyz/features/folder-and-tag-listings), and shows a list of all pages under that folder. 
+#quartz [automatically generates index pages for folders](https://quartz.jzhao.xyz/features/folder-and-tag-listings), and shows a list of all pages under that folder. 
 
 You can create your own `index.md` file to change the title and add any content you want, but disabling the list of pages was not as easy.
 

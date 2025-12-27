@@ -16,7 +16,7 @@ tags:
 ---
 My mind has always preferred organize files in folders. I like having a sense of where things are, and being able to see at a glance all files that pertain to a particular topic.
 
-Even though I use #Obsidian, which pushes towards a tag-based approach to organization, I fight to keep things sorted in folders.
+Even though I use #obsidian, which pushes towards a tag-based approach to organization, I fight to keep things sorted in folders.
 
 But especially now that I'm experimenting with publishing my vault as a website, the folder-based approach is really starting to show its limitations. Maybe this is the time that I try to embrace tags. 
 
