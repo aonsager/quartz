@@ -63,7 +63,8 @@ function sluggify(s: string): string {
         .replace(/&/g, "-and-")
         .replace(/%/g, "-percent")
         .replace(/\?/g, "")
-        .replace(/#/g, ""),
+        .replace(/#/g, "")
+        .toLowerCase(),
     )
     .join("/") // always use / as sep
     .replace(/\/$/, "")
@@ -238,10 +239,11 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
 
     if (opts.strategy === "shortest") {
       // if the file name is unique, then it's just the filename
+      const targetCanonicalLower = targetCanonical.toLowerCase()
       const matchingFileNames = opts.allSlugs.filter((slug) => {
         const parts = slug.split("/")
         const fileName = parts.at(-1)
-        return targetCanonical === fileName
+        return targetCanonicalLower === fileName?.toLowerCase()
       })
 
       // only match, just use it

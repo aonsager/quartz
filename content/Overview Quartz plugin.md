@@ -18,6 +18,9 @@ tags:
 metaRSS: false
 ---
 
+> [!NOTE] 
+> I'm actually not using this plugin anymore, but I'm leaving this page for reference.
+
 
 I created a custom plugin to show a static list of the main sections of the site.
 

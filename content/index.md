@@ -36,6 +36,7 @@ Please note that this site has a great search function. You can use the search b
 Here are some other pages that may be interesting:
 
 - [[Colophon]]
+- [External Links](external-links) is a list of interesting sites I have linked to
 - [[This site's organization]]
 - [[Site todo]]
 - #quartz for other info about the software and how I use it

@@ -1,9 +1,19 @@
 ---
 title: Media Favorites – 2025
-date: 2025-12-28 16:21:00 +09:00
+date: 2025-12-29 16:57:00 +09:00
 colors:
+  - "#731693"
+  - "#4d442f"
+  - "#373839"
+  - "#ff2400"
+  - "#31406e"
 tags:
-draft: false
+  - media
+  - 2025
+  - books
+  - movies
+  - shows
+  - games
 metaRSS: true
 ---
 

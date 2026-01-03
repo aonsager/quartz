@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { ExternalLinksPage } from "./quartz/plugins/emitters/externalLinks"
 
 /**
  * Quartz 4 Configuration
@@ -86,6 +87,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
+      ExternalLinksPage(),
       // Comment out CustomOgImages to speed up build time
       // Plugin.CustomOgImages(),
     ],

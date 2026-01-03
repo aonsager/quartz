@@ -9,6 +9,15 @@ ul.section-ul {
 li.section-li {
   margin-bottom: 1em;
 
+  & > p.meta {
+    margin: 0 0 0.5em 0;
+    opacity: 0.6;
+  }
+
+  & span.meta {
+    opacity: 0.6;
+  }
+
   & > .section {
     display: grid;
     grid-template-columns: fit-content(8em) 3fr 1fr;

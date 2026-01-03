@@ -9,3 +9,4 @@ private/
 replit.nix
 .envrc
 .env
+tmp/
