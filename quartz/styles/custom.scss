@@ -131,3 +131,8 @@ article a {
 .recent-li p {
   margin-bottom: 0;
 }
+
+li.border-top {
+	border-top: 1px solid var(--lightgray);
+	padding-top: 1em;
+}

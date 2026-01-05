@@ -87,7 +87,7 @@ export const MicroPage: QuartzEmitterPlugin = () => {
           slug,
           text: `Micro posts from ${year}`,
           description: `All micro posts from ${year}`,
-          frontmatter: { title: `Micro · ${year}`, tags: [] },
+          frontmatter: { title: `Micro posts · ${year}`, tags: [] },
         })
 
         const externalResources = pageResources(pathToRoot(slug), resources)
@@ -118,7 +118,7 @@ export const MicroPage: QuartzEmitterPlugin = () => {
           <!DOCTYPE html>
           <html lang="en-us">
           <head>
-          <title>Micro</title>
+          <title>Micro posts</title>
           <link rel="canonical" href="${redirectUrl}">
           <meta name="robots" content="noindex">
           <meta charset="utf-8">

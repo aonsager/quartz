@@ -75,13 +75,13 @@ export default ((opts: MicroContentOptions) => {
           {posts.map((post) => {
             const content = htmlToJsx(post.filePath, post.htmlAst)
             return (
-              <li key={post.slug} class="section-li">
-                <p class="meta">
+              <li key={post.slug} class="section-li border-top">
+                {content && <div>{content}</div>}
+                <p class="meta" style="text-align: right;">
                   <a href={resolveRelative(fileData.slug!, post.slug)} class="internal">
                     {formatFullDate(post.date, cfg.locale)}
                   </a>
                 </p>
-                {content && <div>{content}</div>}
               </li>
             )
           })}
