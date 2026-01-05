@@ -20,6 +20,7 @@ import Footer from "./Footer"
 import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
+import RelatedPages from "./RelatedPages"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
@@ -48,6 +49,7 @@ export {
   DesktopOnly,
   MobileOnly,
   RecentNotes,
+  RelatedPages,
   NotFound,
   Breadcrumbs,
   Comments,

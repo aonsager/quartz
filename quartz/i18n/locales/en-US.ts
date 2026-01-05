@@ -25,6 +25,9 @@ export default {
       title: "Backlinks",
       noBacklinksFound: "No backlinks found",
     },
+    relatedPages: {
+      title: "Related Pages",
+    },
     themeToggle: {
       lightMode: "Light mode",
       darkMode: "Dark mode",

@@ -60,6 +60,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   afterBody: [
     Component.ContentMeta(),
+    Component.RelatedPages(),
     Component.MobileOnly(
       Component.RecentNotes({
         showTags: false,
