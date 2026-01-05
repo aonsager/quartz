@@ -28,6 +28,7 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 	- [ ] Make a section for Haiku?
 	- [ ] Decide how much I want to change the site's layout/CSS
 	- [ ] Set up automatic importing of micro posts from [[gotosocial]]
+	- [ ] Revisit design of [[external links]] page
 - Game wiki section 
 	- [x] Start writing things about games I am playing
 	- [ ] Micro-posts
@@ -40,4 +41,5 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 	- [ ] Set up an RSS feed, for only notes that I set #metaRSS in the frontmatter
 - Blog
 	- [x] Migrate old posts over
+	- [ ] Check all posts to make sure nothing is broken
 	- [ ] See how things feel with a tag-based organization
