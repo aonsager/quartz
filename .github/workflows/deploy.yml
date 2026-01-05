@@ -33,5 +33,5 @@ jobs:
           # -z: compress during transfer
           # --delete: remove files on server that were deleted locally
           # public/: trailing slash is CRITICAL. It means "contents of public", not "the folder public"
-          
+
           rsync -avz --delete ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/srv/wiki/

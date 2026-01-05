@@ -52,44 +52,44 @@
 }
 
 .character-header .character-image img {
-	height: 250px;
+  height: 250px;
 }
 
 pre {
-	padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 blockquote {
-	overflow: auto;
-	background-color: var(--highlight);
+  overflow: auto;
+  background-color: var(--highlight);
 }
 
 .table-container table {
-	border-collapse: collapse;
-    margin: 0rem;
-    padding: 0rem;
-    font-size: 0.9em;
-    min-width: 400px;
-    border: 1px solid var(--lightgray);
+  border-collapse: collapse;
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 0.9em;
+  min-width: 400px;
+  border: 1px solid var(--lightgray);
 }
 
 table th,
 table td {
-    padding: 4px 10px;
-    border-right: 1px solid var(--lightgray);
+  padding: 4px 10px;
+  border-right: 1px solid var(--lightgray);
 }
 
 table tbody tr {
-    border-bottom: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray);
 }
 
 table tbody tr:nth-of-type(even) {
-    background-color: var(--light);
+  background-color: var(--light);
 }
 
-.page article li:has(>input[type=checkbox]:checked) {
-	text-decoration: none;
-	color: var(--darkgray);
+.page article li:has(> input[type="checkbox"]:checked) {
+  text-decoration: none;
+  color: var(--darkgray);
 }
 
 .icon {
@@ -101,33 +101,33 @@ table tbody tr:nth-of-type(even) {
   display: inline-block;
   width: 1em;
   height: 1em;
-  
+
   /* This ensures the icon matches the text color */
   background-color: currentColor;
-  
+
   /* The Encoded SVG */
   --svg-url: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'%3E%3Cpath d='M128 512L512 512C547.3 512 576 483.3 576 448L576 208C576 172.7 547.3 144 512 144L362.7 144C355.8 144 349 141.8 343.5 137.6L305.1 108.8C294 100.5 280.5 96 266.7 96L128 96C92.7 96 64 124.7 64 160L64 448C64 483.3 92.7 512 128 512z'/%3E%3C/svg%3E");
-  
+
   -webkit-mask-image: var(--svg-url);
   mask-image: var(--svg-url);
-  
+
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: contain;
   mask-size: contain;
-  
+
   /* Alignment tweaks */
   margin-right: 0.5em;
 }
 
 footer {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 article a {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .recent-li p {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }

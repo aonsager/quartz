@@ -1,12 +1,12 @@
 ---
 title: Journaling in 2025
-date: 2025-12-27 12:13:00 +09:00
+date: 2025-12-27T03:13:00.000Z
 colors:
-  - "#d6c9a0"
-  - "#cbccb9"
-  - "#7b645c"
-  - "#4c3032"
-  - "#c0bebd"
+  - '#d6c9a0'
+  - '#cbccb9'
+  - '#7b645c'
+  - '#4c3032'
+  - '#c0bebd'
 tags:
   - journaling
   - reflection
@@ -14,9 +14,12 @@ tags:
   - habits
   - language
 metaRSS: true
+blurb: >-
+  A reflection of my new journaling habit. This is the first time I managed to
+  maintain the habit for a full year.
 ---
 
-![An image of my Rollbahn notebook. It features an illustration of a train on Japan's Odakyu line.](journal-2025.jpeg "2025 Journal")
+![An image of my Rollbahn notebook. It features an illustration of a train on Japan's Odakyu line.](/images/journal-2025.jpeg "2025 Journal")
 
 2025 was the first year that I maintained a physical journal for the entire year. I had never been able to continue the habit, and admired people who could. My goal was pretty simple – at the end of the year, have a journal that I wrote in consistently for 12 months. This has been a success!
 
@@ -53,4 +56,4 @@ I think one of the most important things about journaling is making it low-frict
 
 ## Continuing the habit
 
-Will I continue to keep a journal in 2026? At first I was not sure, but I’ve committed myself to another year. I have a better idea of how I want to approach the journal, so I’ll write another post about the format I’ll follow in 2026. 
+Will I continue to keep a journal in 2026? At first I was not sure, but I’ve committed myself to another year. I have a better idea of how I want to approach the journal, so I’ll write another post about the format I’ll follow in 2026.

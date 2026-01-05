@@ -12,7 +12,7 @@ tags:
   - folders
   - notes
   - blog
-  - meta_site
+  - colophon
 ---
 My mind has always preferred organize files in folders. I like having a sense of where things are, and being able to see at a glance all files that pertain to a particular topic.
 

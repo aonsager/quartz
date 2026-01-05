@@ -14,7 +14,7 @@ tags:
   - tags
   - design
   - quartz
-  - meta-site
+  - colophon
 metaRSS: false
 ---
 

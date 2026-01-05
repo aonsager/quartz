@@ -1,0 +1,19 @@
+---
+title: Perils of Eroded Civic Knowledge Forewarned by Former Justice Souter
+date: '2016-10-24T18:43:32+09:00'
+colors:
+  - '#E69FA1'
+  - '#A4A4A5'
+  - '#E2A1A2'
+  - '#E69FA0'
+  - '#B0B0B0'
+tags:
+  - politics
+  - article
+  - opinion
+  - video
+  - america
+metaRSS: true
+---
+
+<p>This is extremely important.</p>

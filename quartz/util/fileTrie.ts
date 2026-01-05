@@ -95,7 +95,9 @@ export class FileTrieNode<T extends FileTrieData = ContentDetails> {
       return this
     }
 
-    return this.children.find((c) => c.slugSegment.toLowerCase() === path[0].toLowerCase())?.findNode(path.slice(1))
+    return this.children
+      .find((c) => c.slugSegment.toLowerCase() === path[0].toLowerCase())
+      ?.findNode(path.slice(1))
   }
 
   ancestryChain(path: string[]): Array<FileTrieNode<T>> | undefined {

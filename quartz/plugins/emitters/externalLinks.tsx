@@ -27,13 +27,20 @@ function extractSentenceContext(parentText: string, linkText: string): string {
   // Look backwards from link to find sentence start
   let sentenceStart = 0
   for (let i = linkIndex - 1; i >= 0; i--) {
-    if (['.', '?', '!'].includes(parentText[i])) {
+    if ([".", "?", "!"].includes(parentText[i])) {
       // Check if followed by space or closing punctuation then space (or end of text)
       let nextPos = i + 1
-      while (nextPos < parentText.length && [')', ']', '}', '"', "'"].includes(parentText[nextPos])) {
+      while (
+        nextPos < parentText.length &&
+        [")", "]", "}", '"', "'"].includes(parentText[nextPos])
+      ) {
         nextPos++
       }
-      if (nextPos >= parentText.length || parentText[nextPos] === ' ' || parentText[nextPos] === '\n') {
+      if (
+        nextPos >= parentText.length ||
+        parentText[nextPos] === " " ||
+        parentText[nextPos] === "\n"
+      ) {
         sentenceStart = i + 1
         break
       }
@@ -43,13 +50,20 @@ function extractSentenceContext(parentText: string, linkText: string): string {
   // Look forwards from link to find sentence end
   let sentenceEnd = parentText.length
   for (let i = linkIndex + linkText.length; i < parentText.length; i++) {
-    if (['.', '?', '!'].includes(parentText[i])) {
+    if ([".", "?", "!"].includes(parentText[i])) {
       // Check if followed by space or closing punctuation then space (or end of text)
       let nextPos = i + 1
-      while (nextPos < parentText.length && [')', ']', '}', '"', "'"].includes(parentText[nextPos])) {
+      while (
+        nextPos < parentText.length &&
+        [")", "]", "}", '"', "'"].includes(parentText[nextPos])
+      ) {
         nextPos++
       }
-      if (nextPos >= parentText.length || parentText[nextPos] === ' ' || parentText[nextPos] === '\n') {
+      if (
+        nextPos >= parentText.length ||
+        parentText[nextPos] === " " ||
+        parentText[nextPos] === "\n"
+      ) {
         sentenceEnd = nextPos
         break
       }

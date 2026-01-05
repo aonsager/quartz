@@ -1,8 +1,5 @@
 {
   "permissions": {
-    "allow": [
-      "Bash(npm test)",
-      "Bash(npx quartz build)"
-    ]
+    "allow": ["Bash(npm test)", "Bash(npx quartz build)"]
   }
 }

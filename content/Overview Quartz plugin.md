@@ -14,7 +14,7 @@ tags:
   - overview
   - interface
   - quartz
-  - meta-site
+  - colophon
 metaRSS: false
 ---
 

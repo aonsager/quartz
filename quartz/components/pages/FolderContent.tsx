@@ -30,9 +30,8 @@ export default ((opts?: Partial<FolderContentOptions>) => {
   const FolderContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { tree, fileData, allFiles, cfg } = props
 
-	// check if folder content should be displayed according to frontmatter
-	const showFolderContent: boolean =
-		fileData.frontmatter?.hideFolderContent !== true
+    // check if folder content should be displayed according to frontmatter
+    const showFolderContent: boolean = fileData.frontmatter?.hideFolderContent !== true
 
     const trie = (props.ctx.trie ??= trieFromAllFiles(allFiles))
     const folder = trie.findNode(fileData.slug!.split("/"))
@@ -110,19 +109,19 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       <div class="popover-hint">
         <article class={classes}>{content}</article>
         {showFolderContent && (
-	        <div class="page-listing">
-						<h2>Contents</h2>
-	          {options.showFolderCount && (
-	            <p>
-	              {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
-	                count: allPagesInFolder.length,
-	              })}
-	            </p>
-	          )}
-	          <div>
-	            <PageList {...listProps} />
-	          </div>
-	        </div>
+          <div class="page-listing">
+            <h2>Contents</h2>
+            {options.showFolderCount && (
+              <p>
+                {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
+                  count: allPagesInFolder.length,
+                })}
+              </p>
+            )}
+            <div>
+              <PageList {...listProps} />
+            </div>
+          </div>
         )}
       </div>
     )

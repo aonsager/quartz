@@ -8,7 +8,7 @@ tags:
   - folder
   - content
   - frontmatter
-  - meta-site
+  - colophon
 metaRSS: false
 ---
 

@@ -9,6 +9,7 @@ This is a personal wiki/digital garden built on **Quartz v4**, a static site gen
 ## Development Commands
 
 ### Building and Serving
+
 ```bash
 # Build the site
 npx quartz build
@@ -27,6 +28,7 @@ npx quartz build --serve
 ```
 
 ### Other Commands
+
 ```bash
 # Type check
 npm run check
@@ -42,6 +44,7 @@ npx quartz sync
 ```
 
 ### Environment
+
 - The `CONTENT_SOURCE` environment variable (defined in `.envrc`) points to the Obsidian vault in iCloud
 - Uses direnv to automatically load environment variables
 - The `build.sh` script rsyncs content from `$CONTENT_SOURCE` to the `content/` directory before building
@@ -90,6 +93,7 @@ Quartz uses a three-phase plugin pipeline:
 5. Static resources (CSS, JS, images) are bundled and emitted
 
 The build system uses:
+
 - TypeScript with esbuild for bundling
 - Unified/remark/rehype for markdown processing
 - Preact for component rendering
@@ -98,6 +102,7 @@ The build system uses:
 ### Components
 
 Located in `quartz/components/`, these are Preact components that render parts of the page:
+
 - Layout components: `PageTitle`, `Header`, `Footer`, `Breadcrumbs`
 - Content components: `ArticleTitle`, `TableOfContents`, `ContentMeta`
 - Navigation: `Explorer`, `Search`, `Backlinks`, `Graph`
@@ -123,6 +128,7 @@ Components receive `QuartzComponentProps` which includes file data, external res
 ## Testing
 
 Tests use Node.js built-in test runner (`node:test`):
+
 - Test files: `quartz/util/*.test.ts`
 - Run with: `npm test` (uses tsx test runner)
 

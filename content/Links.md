@@ -14,7 +14,7 @@ tags:
   - customization
   - organization
   - quartz
-  - meta-site
+  - colophon
 metaRSS: false
 ---
 

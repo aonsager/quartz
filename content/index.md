@@ -27,19 +27,22 @@ In addition to being a blog, this is a freeform space for me to build – and ho
 
 I write notes using [Obsidian](https://obsidian.md), and use [Quartz](https://quartz.jzhao.xyz) to transform my notes into a functional website.
 
+These pages might be a good start:
+
+- [[Posts]] is a list of all blog posts
+- [[Colophon]] to learn about how this site is built
+- [External Links](external-links) is a list of interesting sites I have linked to
+- [[This site's organization]]
+- [[Site todo]]
+- #quartz for other info about the software and how I use it
+
 I'm still not sure what the best way to organize things is here, so they might be a lot of reorganizing for a while.
 
 For now, the vision is to just tag everything and see what happens. Maybe I will make a tag cloud to aid exploration. Maybe I will expose a list of related pages for each page. I'm not sure yet, but I think I have a lot of options.
 
 Please note that this site has a great search function. You can use the search bar in the upper-left, or press  `⌘`/`ctrl` + `K`. 
 
-Here are some other pages that may be interesting:
 
-- [[Colophon]]
-- [External Links](external-links) is a list of interesting sites I have linked to
-- [[This site's organization]]
-- [[Site todo]]
-- #quartz for other info about the software and how I use it
 
 ### Games
 
