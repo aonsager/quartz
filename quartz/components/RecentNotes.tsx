@@ -18,8 +18,8 @@ interface Options {
 }
 
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
-  limit: 10,
-  linkToMore: false,
+  limit: 5,
+  linkToMore: "posts" as SimpleSlug,
   showTags: true,
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),

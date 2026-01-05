@@ -149,6 +149,7 @@ Components receive `QuartzComponentProps` which includes file data, external res
 - Custom color scheme defined in `quartz.config.ts` using OKLCH values
 - Many default components (Graph, Explorer, Backlinks) are commented out in the layout
 - CustomOgImages emitter is commented out to speed up build time
+- When adding new components, do not create custom styles. Leverage existing styles instead to maintain consistency.
 
 ## Testing
 
@@ -159,10 +160,10 @@ Tests use Node.js built-in test runner (`node:test`):
 
 ## Branch Strategy
 
-- Main development branch: `v4`
+- Main development branch: `main`
 - Current branch: `main`
 - When creating PRs, target the `main` branch
-- All new feature development should be done on a new, separate branch. The user will manually review and merge.
+- All new feature development should be done on a new, separate branch.
 
 ## Development Strategy
 

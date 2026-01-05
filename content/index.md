@@ -2,6 +2,25 @@
 title: Invisible Wiki
 ---
 
+## About this site
+
+In addition to being a blog, this is a freeform space for me to build – and hopefully grow – a personal knowledge-base. My [main website](https://www.invisibleparade.com) is a space for my thoughts and longer written posts, and has more information about me.
+
+I write notes using [Obsidian](https://obsidian.md), and use [Quartz](https://quartz.jzhao.xyz) to transform my notes into a functional website.
+
+These pages might be a good start:
+
+- [[Posts]] for a list of all blog posts
+- [[Colophon]] to learn about how this site is built
+- [External Links](external-links) is a list of interesting sites I have linked to
+
+I'm still not sure what the best way to organize things is here, so they might be a lot of reorganizing for a while.
+
+For now, the vision is to just tag everything and see what happens. Maybe I will make a tag cloud to aid exploration. Maybe I will expose a list of related pages for each page. I'm not sure yet, but I think I have a lot of options.
+
+Please note that this site has a great search function. You can use the search bar in the upper-left, or press  `⌘`/`ctrl` + `K`. 
+
+
 ## About me
 
 <img src="alex_face.png" width=200 height=200 style="float:right; margin-left: 15px;" title="My face" alt="A photo of me sitting at an outdoor terrace, smiling and trying to keep my eyes open in the bright sunlight." />
@@ -20,28 +39,6 @@ Here are some other pages that may be interesting:
 - [[media]]: A log of the media I enjoyed (or not)
 - [[future]]: My thoughts and hopes about the rest of my life
 - [[past]]: Looking back on how things went
-
-## About this site
-
-In addition to being a blog, this is a freeform space for me to build – and hopefully grow – a personal knowledge-base. My [main website](https://www.invisibleparade.com) is a space for my thoughts and longer written posts, and has more information about me.
-
-I write notes using [Obsidian](https://obsidian.md), and use [Quartz](https://quartz.jzhao.xyz) to transform my notes into a functional website.
-
-These pages might be a good start:
-
-- [[Posts]] is a list of all blog posts
-- [[Colophon]] to learn about how this site is built
-- [External Links](external-links) is a list of interesting sites I have linked to
-- [[This site's organization]]
-- [[Site todo]]
-- #quartz for other info about the software and how I use it
-
-I'm still not sure what the best way to organize things is here, so they might be a lot of reorganizing for a while.
-
-For now, the vision is to just tag everything and see what happens. Maybe I will make a tag cloud to aid exploration. Maybe I will expose a list of related pages for each page. I'm not sure yet, but I think I have a lot of options.
-
-Please note that this site has a great search function. You can use the search bar in the upper-left, or press  `⌘`/`ctrl` + `K`. 
-
 
 
 ### Games
