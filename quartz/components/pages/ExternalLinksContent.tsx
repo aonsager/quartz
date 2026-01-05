@@ -3,10 +3,6 @@ import style from "../styles/listPage.scss"
 import { FullSlug, resolveRelative } from "../../util/path"
 import { Date as DateComponent } from "../Date"
 
-interface ExternalLinksContentOptions {
-  // Future options if needed
-}
-
 interface ExternalLinkData {
   url: string
   earliestDate: Date | undefined
@@ -21,11 +17,7 @@ interface ExternalLinkData {
   }>
 }
 
-const defaultOptions: ExternalLinksContentOptions = {}
-
-export default ((opts?: Partial<ExternalLinksContentOptions>) => {
-  const options: ExternalLinksContentOptions = { ...defaultOptions, ...opts }
-
+export default (() => {
   const ExternalLinksContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { cfg, fileData } = props
     const links = ((props as any).externalLinks || []) as ExternalLinkData[]
@@ -33,7 +25,10 @@ export default ((opts?: Partial<ExternalLinksContentOptions>) => {
     return (
       <div class="popover-hint">
         <article>
-          <p>A chronological list of all external links from this site, ordered by the date they were first published.</p>
+          <p>
+            A chronological list of all external links from this site, ordered by the date they were
+            first published.
+          </p>
         </article>
         <div>
           {links.length > 0 ? (
@@ -44,18 +39,14 @@ export default ((opts?: Partial<ExternalLinksContentOptions>) => {
                 return (
                   <li class="section-li">
                     <h3>
-                      <a
-                        href={link.url}
-                        class="external"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href={link.url} class="external" target="_blank" rel="noopener noreferrer">
                         {link.url}
                       </a>
                     </h3>
                     {firstOccurrence.context && (
-                      <blockquote dangerouslySetInnerHTML={{ __html: firstOccurrence.context }}>
-                      </blockquote>
+                      <blockquote
+                        dangerouslySetInnerHTML={{ __html: firstOccurrence.context }}
+                      ></blockquote>
                     )}
                     <p>
                       <em>From: </em>
@@ -72,7 +63,8 @@ export default ((opts?: Partial<ExternalLinksContentOptions>) => {
                       ))}
                       {link.earliestDate && (
                         <span class="meta">
-                          {" "}(<DateComponent date={link.earliestDate} locale={cfg.locale} />)
+                          {" "}
+                          (<DateComponent date={link.earliestDate} locale={cfg.locale} />)
                         </span>
                       )}
                     </p>

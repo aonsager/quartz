@@ -37,13 +37,15 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     //Component.Overview(),
-    Component.RecentNotes({
-   		showTags: false,
-	   	filter: (node) => {
-	        // only show pages with #meta-rss tag
-					return node.frontmatter?.metaRSS
-	      },
-	    }),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        showTags: false,
+        filter: (node): boolean => {
+          // only show pages with #meta-rss tag
+          return Boolean(node.frontmatter?.metaRSS)
+        },
+      }),
+    ),
     // Component.Explorer(
     //   {
     //     useSavedState: false,
@@ -57,17 +59,22 @@ export const defaultContentPageLayout: PageLayout = {
     //Component.Backlinks(),
   ],
   afterBody: [
-	 	Component.ContentMeta(),
-	  
+    Component.ContentMeta(),
+    Component.MobileOnly(
+      Component.RecentNotes({
+        showTags: false,
+        filter: (node): boolean => {
+          // only show pages with #meta-rss tag
+          return Boolean(node.frontmatter?.metaRSS)
+        },
+      }),
+    ),
   ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-  	Component.Breadcrumbs(), 
-   	Component.ArticleTitle()
-  ],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -81,13 +88,15 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     // Component.Overview(),
-    Component.RecentNotes({
-   		showTags: false,
-	   	filter: (node) => {
-	        // only show pages with #meta-rss tag
-					return node.frontmatter?.metaRSS
-	      },
-	    }),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        showTags: false,
+        filter: (node): boolean => {
+          // only show pages with #meta-rss tag
+          return Boolean(node.frontmatter?.metaRSS)
+        },
+      }),
+    ),
     // Component.Explorer(
     //   {
     //     useSavedState: false,
@@ -95,4 +104,15 @@ export const defaultListPageLayout: PageLayout = {
     // ),
   ],
   right: [],
+  afterBody: [
+    Component.MobileOnly(
+      Component.RecentNotes({
+        showTags: false,
+        filter: (node): boolean => {
+          // only show pages with #meta-rss tag
+          return Boolean(node.frontmatter?.metaRSS)
+        },
+      }),
+    ),
+  ],
 }

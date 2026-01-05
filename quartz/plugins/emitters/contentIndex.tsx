@@ -6,7 +6,6 @@ import { FilePath, FullSlug, SimpleSlug, joinSegments, simplifySlug } from "../.
 import { QuartzEmitterPlugin } from "../types"
 import { toHtml } from "hast-util-to-html"
 import { write } from "./helpers"
-import { i18n } from "../../i18n"
 
 export type ContentIndexMap = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -58,7 +57,7 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string
 
 function generateAtomFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?: number): string {
   const base = cfg.baseUrl ?? ""
-  
+
   const createEntry = (slug: SimpleSlug, content: ContentDetails): string => {
     const fullUrl = `https://${joinSegments(base, encodeURI(slug))}`
     return `<entry>
@@ -108,7 +107,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
     name: "ContentIndex",
     async *emit(ctx, content) {
       const cfg = ctx.cfg.configuration
-      
+
       // Standard index for Sitemap and Search
       const linkIndex: ContentIndexMap = new Map()
       // Dedicated index for Atom Feed
@@ -117,19 +116,19 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       for (const [tree, file] of content) {
         const slug = file.data.slug!
         const date = getDate(ctx.cfg.configuration, file.data) ?? new Date()
-        
+
         const contentDetails: ContentDetails = {
-            slug,
-            filePath: file.data.relativePath!,
-            title: file.data.frontmatter?.title!,
-            links: file.data.links ?? [],
-            tags: file.data.frontmatter?.tags ?? [],
-            content: file.data.text ?? "",
-            richContent: opts?.rssFullHtml
-              ? toHtml(tree as Root, { allowDangerousHtml: true })
-              : undefined,
-            date: date,
-            description: file.data.description ?? "",
+          slug,
+          filePath: file.data.relativePath!,
+          title: file.data.frontmatter?.title!,
+          links: file.data.links ?? [],
+          tags: file.data.frontmatter?.tags ?? [],
+          content: file.data.text ?? "",
+          richContent: opts?.rssFullHtml
+            ? toHtml(tree as Root, { allowDangerousHtml: true })
+            : undefined,
+          date: date,
+          description: file.data.description ?? "",
         }
 
         if (opts?.includeEmptyFiles || (file.data.text && file.data.text !== "")) {
@@ -141,9 +140,9 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           const hasFrontmatterDate = !!file.data.frontmatter?.date
 
           if (opts?.enableRSS && isPost && hasFrontmatterDate) {
-          	if (contentDetails.richContent) {
-          		contentDetails.richContent = stripSvg(contentDetails.richContent)
-           	}
+            if (contentDetails.richContent) {
+              contentDetails.richContent = stripSvg(contentDetails.richContent)
+            }
             atomIndex.set(slug, contentDetails)
           }
         }
