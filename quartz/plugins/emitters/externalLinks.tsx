@@ -15,6 +15,33 @@ import ExternalLinksContent from "../../components/pages/ExternalLinksContent"
 import { toString } from "hast-util-to-string"
 import { toHtml } from "hast-util-to-html"
 
+// Blacklist of domains to ignore when collecting external links
+const DOMAIN_BLACKLIST = [
+  "invisibleparade.com",
+  "amazon.", // Matches amazon.com, amazon.co.uk, etc.
+]
+
+// Helper function to check if a URL should be blacklisted
+function isBlacklisted(url: string): boolean {
+  try {
+    const urlObj = new URL(url)
+    const hostname = urlObj.hostname.toLowerCase()
+
+    return DOMAIN_BLACKLIST.some(domain => {
+      const lowerDomain = domain.toLowerCase()
+      // If domain ends with '.', treat it as a prefix match
+      if (lowerDomain.endsWith('.')) {
+        return hostname.startsWith(lowerDomain) || hostname.includes('.' + lowerDomain.slice(0, -1))
+      }
+      // Otherwise, exact match or subdomain match
+      return hostname === lowerDomain || hostname.endsWith('.' + lowerDomain)
+    })
+  } catch (e) {
+    // If URL parsing fails, don't blacklist it
+    return false
+  }
+}
+
 // Helper function to extract the sentence containing the link
 function extractSentenceContext(parentText: string, linkText: string): string {
   if (!parentText || !linkText) return ""
@@ -146,6 +173,11 @@ export const ExternalLinksPage: QuartzEmitterPlugin = () => {
                 // Check if this is an external URL
                 if (!isAbsoluteUrl(node.properties.href, { httpOnly: false })) {
                   return // Skip internal links
+                }
+
+                // Skip blacklisted domains
+                if (isBlacklisted(node.properties.href)) {
+                  return
                 }
 
                 // Extract link text
