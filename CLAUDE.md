@@ -41,6 +41,31 @@ npm test
 
 # Sync to/from GitHub
 npx quartz sync
+
+# Analyze tags across content
+npm run analyze-tags
+```
+
+### Tag Analysis
+
+The `npm run analyze-tags` command scans all content and generates a report at `tmp/tag-report.md` with:
+
+- **Tag frequency**: All tags ranked by usage count
+- **Potential duplicates**: Case variants, typos (Levenshtein distance), and plural forms
+- **Underused tags**: Tags used only 1-2 times
+- **Isolated pages**: Pages with low tag similarity to other pages (Jaccard metric)
+- **Suggested additions**: Tags that frequently co-occur with existing tags
+
+Options:
+```bash
+# Include micro posts (excluded by default)
+npm run analyze-tags -- --include-micro
+
+# Custom output path
+npm run analyze-tags -- --output reports/tags.md
+
+# Adjust isolation threshold (default: 0.2)
+npm run analyze-tags -- --isolation-threshold 0.3
 ```
 
 ### Environment
@@ -129,7 +154,7 @@ Components receive `QuartzComponentProps` which includes file data, external res
 
 Tests use Node.js built-in test runner (`node:test`):
 
-- Test files: `quartz/util/*.test.ts`
+- Test files: `quartz/util/*.test.ts`, `scripts/*.test.ts`
 - Run with: `npm test` (uses tsx test runner)
 
 ## Branch Strategy

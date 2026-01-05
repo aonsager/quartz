@@ -1,5 +1,18 @@
 {
   "permissions": {
-    "allow": ["Bash(npm test)", "Bash(npx quartz build)"]
+    "allow": [
+      "Bash(npm test)",
+      "Bash(npx quartz build)",
+      "Bash(git checkout:*)",
+      "Bash(find:*)",
+      "Bash(xargs ls:*)",
+      "Bash(grep:*)",
+      "Bash(npm run check:*)",
+      "Bash(npm run analyze-tags:*)",
+      "Bash(npm test:*)",
+      "Bash(npx prettier:*)",
+      "Bash(tsc:*)",
+      "Bash(npx tsc:*)"
+    ]
   }
 }
