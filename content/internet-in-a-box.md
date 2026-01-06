@@ -1,6 +1,7 @@
 ---
 title: Internet in a Box
 date: '2025-05-01 12:41:00 +0900'
+link: https://internet-in-a-box.org/
 colors:
   - '#A49296'
   - '#877248'
@@ -20,6 +21,7 @@ blurb: >-
 metaRSS: true
 ---
 
+https://internet-in-a-box.org/
 > Internet-in-a-Box "learning hotspots" are used in dozens of countries, to give everyone a chance, e.g. in remote mountain villages in India.  
 > It works without internet — like a community fountain, but for the mind — wirelessly serving anyone nearby with a smartphone, tablet or laptop.
 

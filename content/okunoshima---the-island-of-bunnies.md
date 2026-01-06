@@ -41,5 +41,3 @@ Because the bunnies are so friendly it can be easy to forget that they are wild 
 Rabbits are actually nocturnal! If you spend the night on the island, you can walk around at night or early in the morning to see rabbits much more energetic than during the day. Most tourists just visit for the day, so this is your chance to have the bunnies to yourself. There is only one hotel on the island so you might need to make reservations in advance if you want to do this.
 
 For anybody wishing to surround themselves with adorable bunnies, or just looking for a unique travel destination, Ōkunoshima is a wonderful island to visit. Remember to pack an extra bag for treats!
-
-{% include gallery.html image_dir="okunoshima" %}
