@@ -20,4 +20,4 @@ metaRSS: true
 
 The [Torre Girona Chapel](https://www.bsc.es/about-bsc/gallery/chapel-torre-girona) was deconsecrated in the 70s, and now houses the MareNostrum supercomputer.
 
-> “We were in need of hundreds of square meters without columns and the capacity to support 44.5 tons of weight,” Maspoch told me in an email. “At the time there was not much available space at the university and the only room that satisfied our requirements was the Torre Girona chapel. We did not doubt it for a moment and we installed a supercomputer in it. ”
+> "We were in need of hundreds of square meters without columns and the capacity to support 44.5 tons of weight," Maspoch told me in an email. "At the time there was not much available space at the university and the only room that satisfied our requirements was the Torre Girona chapel. We did not doubt it for a moment and we installed a supercomputer in it."

@@ -1,18 +1,25 @@
 name: Deploy to VPS
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Build Site"]
+    types:
+      - completed
     branches:
       - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      # (Insert your build steps here, e.g., hugo build, npm run build)
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: public-build
+          path: public/
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
 
       - name: Install SSH Key
         uses: webfactory/ssh-agent@v0.9.0

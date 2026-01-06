@@ -24,7 +24,7 @@ First, I should set the stage by describing our new development process. Because
 
 We divide our attention into short **sprints**, each lasting one or two weeks. Sprints represent all of the tasks that we will be focusing on during that time, and allow us to keep our minds off of other distractions until it comes time to organize the next sprint.
 
-Each sprint is comprised of various **user stories**, which encapsulate a qualitative end-goal. For example, one user story from our first sprint was “Website Visitors Understand the Mission and Trust the Org”. What this does is it allows us to focus on the real impact that our work will be making. We will not be blindly executing tasks from stale to-do lists, and will make sure that each project has tangible impact.
+Each sprint is comprised of various **user stories**, which encapsulate a qualitative end-goal. For example, one user story from our first sprint was "Website Visitors Understand the Mission and Trust the Org". What this does is it allows us to focus on the real impact that our work will be making. We will not be blindly executing tasks from stale to-do lists, and will make sure that each project has tangible impact.
 
 And each user story is made up of **tasks**, which are small, discrete items of work that take a short amount of time to complete. This allows us to quantify the work that will be done.
 
@@ -67,7 +67,7 @@ For example, our system at Samasource follows a simple structure. Every fifth sp
 
 ### 5. Respect yourself
 
-I know I run the risk of sounding self-serving, but I do believe there is a message here unrelated to ego. Programmers tend to be perceived in a similar way as construction workers. “We know what we want built, and we’re paying you to build it. I don’t care about the details of how you do it as long as the finished product is what I had in mind, and the sooner you finish, the better.” But the discussion needs to be more than just that. Software development is an interesting field because the bulk of the work that goes into a project is invisible to everybody else. It is doing a disservice to everybody involved to not bring more of the process to the surface.
+I know I run the risk of sounding self-serving, but I do believe there is a message here unrelated to ego. Programmers tend to be perceived in a similar way as construction workers. "We know what we want built, and we’re paying you to build it. I don’t care about the details of how you do it as long as the finished product is what I had in mind, and the sooner you finish, the better." But the discussion needs to be more than just that. Software development is an interesting field because the bulk of the work that goes into a project is invisible to everybody else. It is doing a disservice to everybody involved to not bring more of the process to the surface.
 
 There’s an art to showing the amount of work that is being done, and it’s especially important for tech people to convey this information accurately. The aforementioned processes for organizing your effort will make it much easier for non-technical people to be on the same page. Breaking down ideas into discrete tasks allows everybody to understand what is being done to achieve a certain goal. An engineer’s time is both valuable and finite, so everybody will benefit from a solid understanding of where that time is going.
 

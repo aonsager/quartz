@@ -1,12 +1,12 @@
 ---
-title: The Time Everyone “Corrected” the World’s Smartest Woman
-date: '2015-03-02T15:40:30+09:00'
+title: The Time Everyone "Corrected" the World’s Smartest Woman
+date: 2015-03-02T15:40:30+09:00
 colors:
-  - '#694E2D'
-  - '#5D5D5D'
-  - '#5D5D5D'
-  - '#503322'
-  - '#5C6786'
+  - "#694E2D"
+  - "#5D5D5D"
+  - "#5D5D5D"
+  - "#503322"
+  - "#5C6786"
 tags:
   - article
   - probability

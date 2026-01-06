@@ -24,15 +24,15 @@ When I started this site I had just entered university, got my first MacBook, an
 
 At the same time though, [Daring Fireball](https://daringfireball.net) was a cool site with the coolest name. *Daring Fireball* man, how do you top that? 
 
-Envious, I found a site that generates random adjective + noun combinations and hoped for inspiration. The second or third result I got was “invisible parade,” and I immediately loved the oxymoron. The whole point of a parade is to be seen by all of the people. What then, is the point of an invisible parade? 
+Envious, I found a site that generates random adjective + noun combinations and hoped for inspiration. The second or third result I got was "invisible parade," and I immediately loved the oxymoron. The whole point of a parade is to be seen by all of the people. What then, is the point of an invisible parade? 
 
 The name stuck in my head, and I think at one point I may have bought the .net. But I didn’t have anything to do with it, and eventually let it expire. 
 
 ## Being online now
 
-It feels less in fashion to use your full name as a brand now. There is the risk of bad attention following you around, but also it’s just more useful to have a persona. There are literally a gazillion people online, so “hey I have a website” is not enough to make you interesting. You have to let people know people what you’re about, show some personality. 
+It feels less in fashion to use your full name as a brand now. There is the risk of bad attention following you around, but also it’s just more useful to have a persona. There are literally a gazillion people online, so "hey I have a website" is not enough to make you interesting. You have to let people know people what you’re about, show some personality. 
 
-My real-name domain feels like showing up to a costume party with a name tag that just says “Hi, my name is Alex”. It doesn’t feel fun anymore!
+My real-name domain feels like showing up to a costume party with a name tag that just says "Hi, my name is Alex". It doesn’t feel fun anymore!
 
 ## The rebranding
 

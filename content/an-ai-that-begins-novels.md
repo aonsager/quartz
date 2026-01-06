@@ -23,7 +23,7 @@ metaRSS: true
 >
 > He had a strange name, and he was a very big boy indeed.
 >
-> The village of Pembrokeshire, in the county of Mersey, lies on a wide, happy plain, which, in a few years, was to become known as the “Land of the Endless Mountains.”
+> The village of Pembrokeshire, in the county of Mersey, lies on a wide, happy plain, which, in a few years, was to become known as the "Land of the Endless Mountains."
 >
 > I was playing with my dog, Mark the brown Labrador, and I had forgotten that I was also playing with a dead man.
 >

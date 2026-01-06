@@ -20,7 +20,7 @@ blurb: >-
 metaRSS: true
 ---
 
-> Internet-in-a-Box “learning hotspots” are used in dozens of countries, to give everyone a chance, e.g. in remote mountain villages in India.  
+> Internet-in-a-Box "learning hotspots" are used in dozens of countries, to give everyone a chance, e.g. in remote mountain villages in India.  
 > It works without internet — like a community fountain, but for the mind — wirelessly serving anyone nearby with a smartphone, tablet or laptop.
 
 I love everything about this project. It acts as a Wi-Fi hotspot with preloaded data that can serve the community. Wikipedia, eBooks, online courses, medical reference material, the possibilities are endless.
