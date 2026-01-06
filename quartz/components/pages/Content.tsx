@@ -6,7 +6,6 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 const Content: QuartzComponent = (props: QuartzComponentProps) => {
 	const { cfg, fileData, tree } = props
   const content = htmlToJsx(fileData.filePath!, tree) as ComponentChildren
-  const date = fileData.frontmatter?.date as Date
   const classes: string[] = fileData.frontmatter?.cssclasses ?? []
   const classString = ["popover-hint", ...classes].join(" ")
   return (
