@@ -3,14 +3,14 @@ import { classNames } from "../util/lang"
 
 const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const title = fileData.frontmatter?.title
-  const link = fileData.frontmatter?.link
+  const link = fileData.frontmatter?.link as string | undefined
   if (title) {
   	if (link) {
     	return (
      		<div>
        		<h1 class={classNames(displayClass, "article-title")}>{title}</h1>
 					<div class="post-link">
-						<a href="{link}">{link}</a>
+						<a href={link}>{link}</a>
 					</div>
        	</div>
      	)
