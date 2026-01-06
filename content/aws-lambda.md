@@ -1,6 +1,7 @@
 ---
 title: AWS Lambda
 date: '2014-11-14T11:33:00+09:00'
+link: http://aws.amazon.com/lambda
 colors:
   - '#AF2202'
   - '#D3210B'

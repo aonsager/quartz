@@ -1,6 +1,7 @@
 ---
 title: The Sociable Weaver
 date: '2025-01-27'
+link: https://en.wikipedia.org/wiki/Sociable_weaver
 colors:
   - '#734F44'
   - '#685B56'

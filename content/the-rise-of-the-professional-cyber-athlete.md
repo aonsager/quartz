@@ -1,6 +1,7 @@
 ---
 title: The Rise of the Professional Cyber Athlete
 date: '2014-11-25T19:14:25+09:00'
+link: http://www.newyorker.com/magazine/2014/11/24/good-game
 colors:
   - '#B7C9CB'
   - '#BACDC6'

@@ -1,6 +1,7 @@
 ---
 title: Ricky Jay’s Magical Secrets
 date: '2015-03-04T16:16:21+09:00'
+link: http://www.newyorker.com/magazine/1993/04/05/secrets-of-the-magus
 colors:
   - '#5F5F5F'
   - '#5F5F5F'

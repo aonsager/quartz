@@ -1,6 +1,7 @@
 ---
 title: Wag Buys Shares Back from SoftBank
 date: '2019-12-11'
+link: https://www.bloomberg.com/opinion/articles/2019-12-10/the-dogs-ate-softbank-s-money
 colors:
   - '#B8B9C5'
   - '#9F330A'

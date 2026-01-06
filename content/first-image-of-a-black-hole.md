@@ -1,6 +1,7 @@
 ---
 title: The First Image of a Black Hole
 date: '2019-04-11'
+link: https://www.nsf.gov/news/news_summ.jsp?cntn_id=298276
 colors:
   - '#6E0900'
   - '#6D0800'

@@ -1,6 +1,7 @@
 ---
 title: The Night My Girlfriend Dissociated and Forgot Who I Was
 date: '2015-03-05T20:59:26+09:00'
+link: http://www.vice.com/en_uk/read/the-night-my-girlfriend-forgot-who-i-was-944
 colors:
   - '#AEC5CF'
   - '#60605A'

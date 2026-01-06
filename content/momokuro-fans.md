@@ -1,6 +1,7 @@
 ---
 title: 'When a music festival was cancelled, idol fans supported the local community'
 date: '2025-04-21 12:44:00 +0900'
+link: https://news.yahoo.co.jp/articles/f3dc7027f17ec3d90e0da75d8f622e12452f471a
 colors:
   - '#C90738'
   - '#525151'

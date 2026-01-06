@@ -1,6 +1,7 @@
 ---
 title: Reimagining Chess with AlphaZero
 date: '2022-01-31'
+link: https://cacm.acm.org/magazines/2022/2/258230-reimagining-chess-with-alphazero/fulltext
 colors:
   - '#00000000'
   - '#5E5857'

@@ -1,6 +1,7 @@
 ---
 title: Chrono Trigger Retrospective
 date: '2010-10-23'
+link: http://socksmakepeoplesexy.net/index.php?a=trigger
 colors:
   - '#572117'
   - '#685F56'

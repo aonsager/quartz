@@ -1,6 +1,7 @@
 ---
 title: NAVA Ora Unica Wristwatch
 date: '2019-05-13'
+link: https://www.navadesign.com/blog/ora-unica-design-watch/
 colors:
   - '#363534'
   - '#5F1B21'

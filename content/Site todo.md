@@ -42,5 +42,8 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 	- [ ] Set up an RSS feed, for only notes that I set #metaRSS in the frontmatter
 - Blog
 	- [x] Migrate old posts over
-	- [ ] Check all posts to make sure nothing is broken
+	- [x] Check all posts to make sure nothing is broken
+	- [ ] Resurface `link` frontmatter
+		- [ ] Add a new /links section based on this. 
+			- Overlap with /posts is ok
 	- [ ] See how things feel with a tag-based organization

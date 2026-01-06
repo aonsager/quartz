@@ -1,6 +1,7 @@
 ---
 title: A Teenager’s View on Social Media — Backchannel — Medium
 date: '2015-01-08T12:16:50+09:00'
+link: https://medium.com/backchannel/a-teenagers-view-on-social-media-1df945c09ac6
 colors:
   - '#0767C4'
   - '#FFF800'

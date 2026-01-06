@@ -1,6 +1,7 @@
 ---
 title: 'Picular - Google, but for Colors'
 date: '2018-08-30'
+link: https://picular.co/
 colors:
   - '#9B7056'
   - '#EB7C32'

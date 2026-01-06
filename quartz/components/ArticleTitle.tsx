@@ -3,8 +3,20 @@ import { classNames } from "../util/lang"
 
 const ArticleTitle: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const title = fileData.frontmatter?.title
+  const link = fileData.frontmatter?.link
   if (title) {
-    return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
+  	if (link) {
+    	return (
+     		<div>
+       		<h1 class={classNames(displayClass, "article-title")}>{title}</h1>
+					<div class="post-link">
+						<a href="{link}">{link}</a>
+					</div>
+       	</div>
+     	)
+    } else {
+    	return <h1 class={classNames(displayClass, "article-title")}>{title}</h1>
+   }
   } else {
     return null
   }

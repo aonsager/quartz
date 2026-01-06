@@ -1,6 +1,7 @@
 ---
 title: 'Box Line Text: A minimal whiteboard app'
 date: '2020-04-21'
+link: https://box-line-text.netlify.app/
 colors:
   - '#C6BBBC'
   - '#A5A5A5'

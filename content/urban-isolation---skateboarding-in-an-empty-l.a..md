@@ -1,6 +1,7 @@
 ---
 title: Urban Isolation - Skateboarding in an empty L.A.
 date: '2022-02-10'
+link: https://vimeo.com/91085172
 colors:
   - '#B0B0B0'
   - '#3DA935'

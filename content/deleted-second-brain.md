@@ -1,6 +1,7 @@
 ---
 title: 'To experience, rather than record'
 date: '2025-06-30 10:21:00 +0900'
+link: https://www.joanwestenberg.com/p/i-deleted-my-second-brain
 colors:
   - '#AEAFAE'
   - '#9ED4E7'

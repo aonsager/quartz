@@ -1,6 +1,7 @@
 ---
 title: Remove.bg - Remove the Background of Any Photo
 date: '2019-03-19'
+link: https://www.remove.bg/
 colors:
   - '#5E2813'
   - '#0E64A1'

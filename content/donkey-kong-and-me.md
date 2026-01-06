@@ -1,6 +1,7 @@
 ---
 title: Donkey Kong and Me
 date: '2008-03-12T03:22:41+09:00'
+link: http://www.dadhacker.com/blog/?p=987
 colors:
   - '#77DAFB'
   - '#163855'

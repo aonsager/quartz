@@ -1,6 +1,7 @@
 ---
 title: Automating Materials Science with Machine Learning
 date: '2018-12-20'
+link: https://www.technologyreview.com/s/612388/a-robot-scientist-will-dream-up-new-materials-to-advance-computing-and-fight-pollution/
 colors:
   - '#AEAEAE'
   - '#4D311D'

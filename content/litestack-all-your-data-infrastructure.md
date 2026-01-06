@@ -1,6 +1,7 @@
 ---
 title: 'Litestack: All your data infrastructure'
 date: '2024-12-24'
+link: https://github.com/oldmoe/litestack
 colors:
   - '#A19F9F'
   - '#A2A1A0'

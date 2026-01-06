@@ -1,6 +1,7 @@
 ---
 title: 'Pipino: Gentleman Thief — EPIC MAGAZINE — Medium'
 date: '2015-03-02T20:27:13+09:00'
+link: https://medium.com/epic-magazine/pipino-gentleman-thief-ede9713dafb1
 colors:
   - '#686859'
   - '#EFD998'

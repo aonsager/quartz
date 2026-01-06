@@ -1,6 +1,7 @@
 ---
 title: 'A Boy Named Sue, and a Theory of Names'
 date: '2008-03-12T05:08:49+09:00'
+link: http://www.nytimes.com/2008/03/11/science/11tier.html
 colors:
   - '#5A1516'
   - '#966D6A'

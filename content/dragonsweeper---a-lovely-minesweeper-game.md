@@ -1,6 +1,7 @@
 ---
 title: Dragonsweeper - A lovely minesweeper game
 date: '2025-01-28'
+link: https://danielben.itch.io/dragonsweeper
 colors:
   - '#475556'
   - '#AFAFAF'

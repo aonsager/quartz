@@ -1,6 +1,7 @@
 ---
 title: Star Wars Oil Paintings
 date: '2021-10-21'
+link: https://www.nacicaba.com/star-wars-paintings/
 colors:
   - '#555E69'
   - '#4E4F4D'

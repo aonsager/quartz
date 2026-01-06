@@ -1,6 +1,7 @@
 ---
 title: A Striking Perspective on New York City Property Values | Metrocosm
 date: '2015-07-09T14:17:56+09:00'
+link: http://metrocosm.com/new-york-city-property-values-in-perspective
 colors:
   - '#D0D1B8'
   - '#4C342F'

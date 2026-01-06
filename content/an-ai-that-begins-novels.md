@@ -1,6 +1,7 @@
 ---
 title: An AI That Begins Novels
 date: '2019-11-21'
+link: https://aiweirdness.com/post/189170306297/how-to-begin-a-novel
 colors:
   - '#8C6253'
   - '#BACAD0'

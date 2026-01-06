@@ -1,6 +1,7 @@
 ---
 title: Shape Up - How Basecamp does Product Development
 date: '2019-08-01'
+link: https://basecamp.com/shapeup
 colors:
   - '#4A4949'
   - '#EC6863'

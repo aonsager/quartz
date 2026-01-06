@@ -1,6 +1,7 @@
 ---
 title: Katamari Damacy postmortem
 date: '2025-02-12 11:48:00 +0900'
+link: https://www.gamedeveloper.com/design/postmortem-the-singular-design-of-namco-s-katamari-damacy-2004-
 colors:
   - '#4E2F21'
   - '#E8D798'

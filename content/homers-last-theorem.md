@@ -1,6 +1,7 @@
 ---
 title: Homer's Last Theorem
 date: '2015-03-03T18:53:41+09:00'
+link: http://boingboing.net/2014/10/17/homers-last-theorem.html
 colors:
   - '#692A11'
   - '#5B5B5B'

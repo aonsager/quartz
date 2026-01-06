@@ -1,6 +1,7 @@
 ---
 title: Relationship Test - Dataclysm
 date: '2014-11-11T15:53:16+09:00'
+link: http://dataclysm.org/relationshiptest
 colors:
   - '#959596'
   - '#A2A2A2'

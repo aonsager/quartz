@@ -1,6 +1,7 @@
 ---
 title: Squirrel - Archive webpages so I can find them again
 date: '2025-01-09'
+link: https://github.com/aonsager/squirrel-archiver
 colors:
   - '#5B5958'
   - '#06276E'

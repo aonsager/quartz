@@ -1,6 +1,7 @@
 ---
 title: Perils of Eroded Civic Knowledge Forewarned by Former Justice Souter
 date: '2016-10-24T18:43:32+09:00'
+link: http://www.msnbc.com/rachel-maddow/watch/perils-of-eroded-civic-knowledge-forewarned-790540867791
 colors:
   - '#E69FA1'
   - '#A4A4A5'

@@ -1,6 +1,7 @@
 ---
 title: Pray for Japan
 date: '2011-03-14'
+link: http://prayforjapan.jp/
 colors:
   - '#F4CF68'
   - '#D6242F'

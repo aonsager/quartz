@@ -1,6 +1,7 @@
 ---
 title: The geometric nests of the white-spotted pufferfish
 date: '2025-02-04 14:25:00 +0900'
+link: https://amami-horizon.com/en/nature/ocean/amami-hoshizorafugu
 colors:
   - '#ADADAD'
   - '#635F57'
