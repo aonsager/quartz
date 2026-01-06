@@ -59,7 +59,7 @@ export const defaultContentPageLayout: PageLayout = {
     //Component.Backlinks(),
   ],
   afterBody: [
-    Component.ContentMeta(),
+    // Component.ContentMeta(),
     Component.RelatedPages(),
     Component.MobileOnly(
       Component.RecentNotes({

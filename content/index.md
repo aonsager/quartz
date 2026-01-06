@@ -1,5 +1,5 @@
 ---
-title: Invisible Wiki
+title: Invisible Parade
 ---
 
 ## About this site
@@ -11,7 +11,7 @@ I write notes using [Obsidian](https://obsidian.md), and use [Quartz](https://qu
 These pages might be a good start:
 
 - [[Posts]] for a list of all blog posts
-- [[Colophon]] to learn about how this site is built
+- [[colophon]] to learn about how this site is built
 - [External Links](external-links) is a list of interesting sites I have linked to
 
 I'm still not sure what the best way to organize things is here, so they might be a lot of reorganizing for a while.

@@ -19,7 +19,7 @@ aliases:
 | :--------------- | :---------- | :--------- |
 | ✅️ 18/18         | ✅️ 2/5 +2   | ✅️ 9/9     |
 
-[[Mei-Lin | Details →]]
+[[mei-lin| Details →]]
 
 
 <h2 class="character-header header-blue">
@@ -34,7 +34,7 @@ aliases:
 | :--------------- | :---------- | :--------- |
 | ✅️ 18/18         | ✅️ 4/6 +3   | ❌️ 0/4    |
 
-[[Mika | Details →]]
+[[mika| Details →]]
 
 <h1 class="character-header header-purple">
   Renoa
@@ -48,7 +48,7 @@ aliases:
 | :--------------- | :---------- | :--------- |
 | ❌️ 4/6         | ❌️    | ❌️     |
 
-[[Renoa | Details →]]
+[[renoa| Details →]]
 
 <h1 class="character-header header-purple">
   Rei
@@ -62,4 +62,4 @@ aliases:
 | :--------------- | :---------- | :--------- |
 | ❌️ 0/6         | ❌️    | ❌️     |
 
-[[Rei | Details →]]
+[[rei| Details →]]

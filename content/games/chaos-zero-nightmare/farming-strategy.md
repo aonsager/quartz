@@ -1,3 +1,8 @@
+---
+title: Farming Strategy
+---
+
+
 > [!warning] Laboratory 0
 > A lot of this information may be specific to farming on Laboratory 0. I'll need to update this if mechanics change in the next event.
 
@@ -42,4 +47,4 @@ So just reset, and re-enable everything except for the Rare Species probably up.
 
 Some principles to keep in mind:
 
-- [[Duplicating cards effectively]]
+- [[duplicating-cards]]

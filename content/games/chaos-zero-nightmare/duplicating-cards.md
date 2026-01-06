@@ -1,3 +1,8 @@
+---
+title: Duplicating Cards Effectively
+---
+
+
 A lot of characters benefit greatly from having a key card duplicated as many times as possible. One time is good, but two times (or even more?) is fantastic.
 
 ## Remove other Epiphany cards
