@@ -24,8 +24,6 @@ rsync -av --exclude '.*' --exclude '_*' --delete "$CONTENT_SOURCE" content/
 
 if [ "$DO_SERVE" = true ]; then
 	npx quartz build --serve
-else
-	npx quartz build
 fi
 
 if [ "$DO_PUSH" = true ]; then
