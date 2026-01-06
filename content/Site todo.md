@@ -25,6 +25,7 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 - General
 	- [x] Set up automatic deploys (rsync) in Github Actions
 	- [x] [[Disable Folder Listings for certain index pages]]
+	- [x] Stop committing public/
 	- [ ] Make a section for Haiku?
 	- [ ] Decide how much I want to change the site's layout/CSS
 	- [ ] Set up automatic importing of micro posts from [[gotosocial]]
