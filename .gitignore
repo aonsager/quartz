@@ -10,3 +10,4 @@ replit.nix
 .envrc
 .env
 tmp/
+public/
