@@ -1,30 +1,21 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+import { classNames } from "../util/lang"
 
 export default (() => {
-  const Overview: QuartzComponent = (_props: QuartzComponentProps) => {
+  const Overview: QuartzComponent = ({
+    displayClass,
+  }: QuartzComponentProps) => {
     return (
-      <div class="overview desktop-only">
+      <div class={classNames(displayClass, "overview")}>
         <div class="section">
           <h3>
-            <a href="/about/">About</a>
-          </h3>
-          <p class="meta">About me and this site</p>
-        </div>
-        <div class="section">
-          <h3>
-            <a href="/posts/">Posts</a>
+            <a href="/posts">Posts</a>
           </h3>
           <p class="meta">Longer things I wrote</p>
         </div>
         <div class="section">
           <h3>
-            <a href="/games/">Games</a>
-          </h3>
-          <p class="meta">Thoughts and reference</p>
-        </div>
-        <div class="section">
-          <h3>
-            <a href="/micro/">Micro</a>
+            <a href="/micro">Micro</a>
           </h3>
           <p class="meta">
             My <del>tweets</del> toots
@@ -32,15 +23,15 @@ export default (() => {
         </div>
         <div class="section">
           <h3>
-            <a href="/links/">Links</a>
+            <a href="/links">Links</a>
           </h3>
           <p class="meta">Things I liked</p>
         </div>
         <div class="section">
           <h3>
-            <a href="/notes/">Notes</a>
+            <a href="/games/">Games</a>
           </h3>
-          <p class="meta">Assorted information</p>
+          <p class="meta">Thoughts and reference</p>
         </div>
       </div>
     )

@@ -36,16 +36,16 @@ export const defaultContentPageLayout: PageLayout = {
         // { Component: Component.ReaderMode() },
       ],
     }),
-    //Component.Overview(),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        showTags: false,
-        filter: (node): boolean => {
-          // only show pages with #meta-rss tag
-          return Boolean(node.frontmatter?.metaRSS)
-        },
-      }),
-    ),
+     Component.DesktopOnly(Component.Overview()),
+    // Component.DesktopOnly(
+      // Component.RecentNotes({
+      //   showTags: false,
+      //   filter: (node): boolean => {
+      //     // only show pages with #meta-rss tag
+      //     return Boolean(node.frontmatter?.metaRSS)
+      //   },
+      // }),
+    // ),
     // Component.Explorer(
     //   {
     //     useSavedState: false,
@@ -61,15 +61,16 @@ export const defaultContentPageLayout: PageLayout = {
   afterBody: [
     // Component.ContentMeta(),
     Component.RelatedPages(),
-    Component.MobileOnly(
-      Component.RecentNotes({
-        showTags: false,
-        filter: (node): boolean => {
-          // only show pages with #meta-rss tag
-          return Boolean(node.frontmatter?.metaRSS)
-        },
-      }),
-    ),
+    Component.MobileOnly(Component.Overview()),
+    // Component.MobileOnly(
+    //   Component.RecentNotes({
+    //     showTags: false,
+    //     filter: (node): boolean => {
+    //       // only show pages with #meta-rss tag
+    //       return Boolean(node.frontmatter?.metaRSS)
+    //     },
+    //   }),
+    // ),
   ],
 }
 
@@ -88,16 +89,16 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    // Component.Overview(),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        showTags: false,
-        filter: (node): boolean => {
-          // only show pages with #meta-rss tag
-          return Boolean(node.frontmatter?.metaRSS)
-        },
-      }),
-    ),
+    Component.DesktopOnly(Component.Overview()),
+    // Component.DesktopOnly(
+    //   Component.RecentNotes({
+    //     showTags: false,
+    //     filter: (node): boolean => {
+    //       // only show pages with #meta-rss tag
+    //       return Boolean(node.frontmatter?.metaRSS)
+    //     },
+    //   }),
+    // ),
     // Component.Explorer(
     //   {
     //     useSavedState: false,
@@ -106,14 +107,15 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
   afterBody: [
-    Component.MobileOnly(
-      Component.RecentNotes({
-        showTags: false,
-        filter: (node): boolean => {
-          // only show pages with #meta-rss tag
-          return Boolean(node.frontmatter?.metaRSS)
-        },
-      }),
-    ),
+  	Component.MobileOnly(Component.Overview()),
+    // Component.MobileOnly(
+    //   Component.RecentNotes({
+    //     showTags: false,
+    //     filter: (node): boolean => {
+    //       // only show pages with #meta-rss tag
+    //       return Boolean(node.frontmatter?.metaRSS)
+    //     },
+    //   }),
+    // ),
   ],
 }
