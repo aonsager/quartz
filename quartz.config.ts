@@ -1,9 +1,10 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import { ExternalLinksPage } from "./quartz/plugins/emitters/externalLinks"
+// import { ExternalLinksPage } from "./quartz/plugins/emitters/externalLinks"
 import { PostsPage } from "./quartz/plugins/emitters/postsPage"
 import { LinksPage } from "./quartz/plugins/emitters/linksPage"
 import { MicroPage } from "./quartz/plugins/emitters/microPage"
+import { AtomFeeds } from "./quartz/plugins/emitters/atomFeeds"
 
 /**
  * Quartz 4 Configuration
@@ -84,13 +85,14 @@ const config: QuartzConfig = {
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
-        enableRSS: true,
+        enableRSS: false, // Disabled - using AtomFeeds plugin instead
       }),
+      AtomFeeds(),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      ExternalLinksPage(),
+      // ExternalLinksPage(),
       PostsPage(),
       LinksPage(),
       MicroPage(),

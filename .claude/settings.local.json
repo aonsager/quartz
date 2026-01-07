@@ -12,7 +12,8 @@
       "Bash(npm test:*)",
       "Bash(npx prettier:*)",
       "Bash(tsc:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(ls:*)"
     ]
   }
 }

@@ -11,3 +11,4 @@ replit.nix
 .env
 tmp/
 public/
+.claude

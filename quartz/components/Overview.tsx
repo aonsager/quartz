@@ -15,7 +15,7 @@ export default (() => {
         </div>
         <div class="section">
           <h3>
-            <a href="/micro">Micro</a>
+            <a href="/micro/">Micro</a>
           </h3>
           <p class="meta">
             My <del>tweets</del> toots
