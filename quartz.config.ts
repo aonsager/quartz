@@ -2,6 +2,7 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 import { ExternalLinksPage } from "./quartz/plugins/emitters/externalLinks"
 import { PostsPage } from "./quartz/plugins/emitters/postsPage"
+import { LinksPage } from "./quartz/plugins/emitters/linksPage"
 import { MicroPage } from "./quartz/plugins/emitters/microPage"
 
 /**
@@ -91,6 +92,7 @@ const config: QuartzConfig = {
       Plugin.NotFoundPage(),
       ExternalLinksPage(),
       PostsPage(),
+      LinksPage(),
       MicroPage(),
       // Comment out CustomOgImages to speed up build time
       // Plugin.CustomOgImages(),

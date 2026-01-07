@@ -245,8 +245,6 @@ else
     CTX_PERCENT=0
 fi
   
-CTX_PERCENT=50
-  
 CTX_COLOR=$(get_color "$CTX_PERCENT")
   
 CTX_DISPLAY="Context ${CTX_COLOR}${CTX_PERCENT}%${RESET}"

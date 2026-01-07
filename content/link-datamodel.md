@@ -21,6 +21,7 @@ metaRSS: false
 > [!NOTE] 
 > This was an early idea I had, but I'm not pursuing it any more.
 
+hogehoge
 
 I'm basically creating a new type of post called a Link, which consists of a link to an external site + my brief comments about it. Making this work the way I want will take a bit of tweaking.
 
