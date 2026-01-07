@@ -10,9 +10,9 @@ I write notes using [Obsidian](https://obsidian.md), and use [Quartz](https://qu
 
 These pages might be a good start:
 
-- [[Posts]] for a list of all blog posts
-- [[Colophon]] to learn about how this site is built
-- [External Links](external-links) is a list of interesting sites I have linked to
+- [Posts](/posts) for a list of all blog posts
+- [Links](/links) is a list of interesting sites I have linked to
+- [Colophon](/tags/colophon) for information about how this site is built
 
 I'm still not sure what the best way to organize things is here, so they might be a lot of reorganizing for a while.
 

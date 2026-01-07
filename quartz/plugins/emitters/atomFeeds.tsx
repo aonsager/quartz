@@ -56,9 +56,14 @@ function generateAtomFeed(
       .map((tag) => `<category term="${escapeHTML(tag)}" />`)
       .join("")
 
+    // Add related link for external links
+    const relatedLink = content.link
+      ? `\n    <link href="${escapeHTML(content.link)}" rel="related" type="text/html" />`
+      : ""
+
     return `<entry>
     <title type="html">${escapeHTML(content.title)}</title>
-    <link href="${fullUrl}" rel="alternate" type="text/html" title="${escapeHTML(content.title)}" />
+    <link href="${fullUrl}" rel="alternate" type="text/html" title="${escapeHTML(content.title)}" />${relatedLink}
     <published>${dateStr}</published>
     <updated>${dateStr}</updated>
     <id>${fullUrl}</id>
