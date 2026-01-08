@@ -1,14 +1,14 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
-import { FilePath, FullSlug, resolveRelative } from "../../util/path"
+import { FilePath, FullSlug, resolveRelative, normalizeHastElement } from "../../util/path"
 import { QuartzPluginData } from "../../plugins/vfile"
 import { getDate } from "../Date"
 import { GlobalConfiguration } from "../../cfg"
 import { htmlToJsx } from "../../util/jsx"
-import { Root } from "hast"
+import { Root, Element as HastElement } from "hast"
 
 interface MicroContentOptions {
-  year: number
-  allYears: number[]
+  page: number
+  totalPages: number
 }
 
 interface MicroPost {
@@ -30,13 +30,24 @@ function getPostDate(cfg: GlobalConfiguration, fileData: QuartzPluginData): Date
   return getDate(cfg, fileData)
 }
 
+function normalizeHtmlAst(tree: Root, curSlug: FullSlug, newSlug: FullSlug): Root {
+  return {
+    ...tree,
+    children: tree.children.map((child) =>
+      normalizeHastElement(child as HastElement, curSlug, newSlug),
+    ),
+  }
+}
+
+const POSTS_PER_PAGE = 20
+
 export default ((opts: MicroContentOptions) => {
   const MicroContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { cfg, fileData, allFiles } = props
-    const { year, allYears } = opts
+    const { page, totalPages } = opts
 
-    // Filter to only micro posts for this year
-    const posts: MicroPost[] = allFiles
+    // Get all micro posts sorted by date (newest first)
+    const allPosts: MicroPost[] = allFiles
       .filter((file) => file.slug?.startsWith("micro/") && !file.slug?.endsWith("/index"))
       .map((file) => ({
         slug: file.slug!,
@@ -45,35 +56,23 @@ export default ((opts: MicroContentOptions) => {
         filePath: file.filePath!,
       }))
       .filter((post) => post.date !== undefined && post.htmlAst !== undefined)
-      .filter((post) => post.date.getFullYear() === year)
       .sort((a, b) => b.date.getTime() - a.date.getTime())
 
-    // Sort years descending for navigation
-    const sortedYears = [...allYears].sort((a, b) => b - a)
+    // Get posts for this page
+    const startIndex = (page - 1) * POSTS_PER_PAGE
+    const posts = allPosts.slice(startIndex, startIndex + POSTS_PER_PAGE)
+
+    // Helper to get page URL
+    const getPageUrl = (pageNum: number): FullSlug => {
+      return pageNum === 1 ? ("micro" as FullSlug) : (`micro/${pageNum}` as FullSlug)
+    }
 
     return (
       <div class="popover-hint">
-        <p>
-          {sortedYears.map((y, idx) => (
-            <span key={y}>
-              {y === year ? (
-                <strong>{y}</strong>
-              ) : (
-                <a
-                  href={resolveRelative(fileData.slug!, `micro/${y}` as FullSlug)}
-                  class="internal"
-                >
-                  {y}
-                </a>
-              )}
-              {idx !== sortedYears.length - 1 && " · "}
-            </span>
-          ))}
-        </p>
-
         <ul class="section-ul">
           {posts.map((post) => {
-            const content = htmlToJsx(post.filePath, post.htmlAst)
+            const normalizedAst = normalizeHtmlAst(post.htmlAst, fileData.slug!, post.slug)
+            const content = htmlToJsx(post.filePath, normalizedAst)
             return (
               <li key={post.slug} class="section-li border-top">
                 {content && <div>{content}</div>}
@@ -86,6 +85,28 @@ export default ((opts: MicroContentOptions) => {
             )
           })}
         </ul>
+
+        {totalPages > 1 && (
+          <p style="text-align: center; margin-top: 2rem;">
+            {page > 1 && (
+              <a
+                href={resolveRelative(fileData.slug!, getPageUrl(page - 1))}
+                class="internal"
+              >
+                ← Newer
+              </a>
+            )}
+            {page > 1 && page < totalPages && " · "}
+            {page < totalPages && (
+              <a
+                href={resolveRelative(fileData.slug!, getPageUrl(page + 1))}
+                class="internal"
+              >
+                Older →
+              </a>
+            )}
+          </p>
+        )}
       </div>
     )
   }

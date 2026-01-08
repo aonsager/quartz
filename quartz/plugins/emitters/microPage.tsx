@@ -11,12 +11,14 @@ import { write } from "./helpers"
 import MicroContent from "../../components/pages/MicroContent"
 import { getDate } from "../../components/Date"
 
+const POSTS_PER_PAGE = 20
+
 export const MicroPage: QuartzEmitterPlugin = () => {
-  // Create base opts for getQuartzComponents (without specific year)
+  // Create base opts for getQuartzComponents (without specific page)
   const baseOpts: FullPageLayout = {
     ...sharedPageComponents,
     ...defaultListPageLayout,
-    pageBody: MicroContent({ year: 0, allYears: [] }), // Placeholder for component registration
+    pageBody: MicroContent({ page: 1, totalPages: 1 }), // Placeholder for component registration
   }
 
   const {
@@ -52,42 +54,36 @@ export const MicroPage: QuartzEmitterPlugin = () => {
       const cfg = ctx.cfg.configuration
       const allFiles = content.map((c) => c[1].data)
 
-      // Get all micro posts and their years
-      const microPosts = allFiles.filter(
-        (file) => file.slug?.startsWith("micro/") && !file.slug?.endsWith("/index"),
-      )
+      // Get all micro posts with dates, sorted by date descending
+      const microPosts = allFiles
+        .filter((file) => file.slug?.startsWith("micro/") && !file.slug?.endsWith("/index"))
+        .map((file) => ({ file, date: getDate(cfg, file) }))
+        .filter((item) => item.date !== undefined)
+        .sort((a, b) => b.date!.getTime() - a.date!.getTime())
 
-      const years = new Set<number>()
-      for (const file of microPosts) {
-        const date = getDate(cfg, file)
-        if (date) {
-          years.add(date.getFullYear())
-        }
-      }
-
-      const allYears = Array.from(years).sort((a, b) => b - a)
-
-      if (allYears.length === 0) {
+      if (microPosts.length === 0) {
         return
       }
 
-      const latestYear = allYears[0]
+      const totalPages = Math.ceil(microPosts.length / POSTS_PER_PAGE)
 
-      // Emit a page for each year
-      for (const year of allYears) {
-        const slug = `micro/${year}` as FullSlug
+      // Emit a page for each page number
+      for (let page = 1; page <= totalPages; page++) {
+        // First page is at /micro/, subsequent pages at /micro/2, /micro/3, etc.
+        const slug = (page === 1 ? "micro" : `micro/${page}`) as FullSlug
 
         const opts: FullPageLayout = {
           ...sharedPageComponents,
           ...defaultListPageLayout,
-          pageBody: MicroContent({ year, allYears }),
+          pageBody: MicroContent({ page, totalPages }),
         }
 
+        const title = `Micro posts · Page ${page}`
         const [tree, vfile] = defaultProcessedContent({
           slug,
-          text: `Micro posts from ${year}`,
-          description: `All micro posts from ${year}`,
-          frontmatter: { title: `Micro posts · ${year}`, tags: [] },
+          text: "Micro posts",
+          description: "Short thoughts and notes",
+          frontmatter: { title, tags: [] },
         })
 
         const externalResources = pageResources(pathToRoot(slug), resources)
@@ -108,27 +104,6 @@ export const MicroPage: QuartzEmitterPlugin = () => {
           ext: ".html",
         })
       }
-
-      // Emit redirect page at /micro/ to latest year
-      const microSlug = "micro/index" as FullSlug
-      const redirectUrl = `./${latestYear}`
-      yield write({
-        ctx,
-        content: `
-          <!DOCTYPE html>
-          <html lang="en-us">
-          <head>
-          <title>Micro posts</title>
-          <link rel="canonical" href="${redirectUrl}">
-          <meta name="robots" content="noindex">
-          <meta charset="utf-8">
-          <meta http-equiv="refresh" content="0; url=${redirectUrl}">
-          </head>
-          </html>
-        `,
-        slug: microSlug,
-        ext: ".html",
-      })
     },
     async *partialEmit() {
       // Skip partial rebuild - regenerate on full build

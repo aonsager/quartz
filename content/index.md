@@ -36,6 +36,5 @@ Part of the reason I maintain this site is the hope that it will help me make mo
 Here are some other pages that may be interesting:
 
 - [[now]]: What I am doing now
-- [[media]]: A log of the media I enjoyed (or not)
 - [[future]]: My thoughts and hopes about the rest of my life
 - [[past]]: Looking back on how things went
