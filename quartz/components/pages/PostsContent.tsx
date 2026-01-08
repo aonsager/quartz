@@ -25,7 +25,7 @@ export default (() => {
 
     // Filter to only metaRSS posts and collect post data
     const posts: PostData[] = allFiles
-      .filter((file) => file.frontmatter?.metaRSS === true)
+      .filter((file) => file.frontmatter?.metaRSS == true)
       .map((file) => ({
         slug: file.slug!,
         title: file.frontmatter?.title ?? "Untitled",

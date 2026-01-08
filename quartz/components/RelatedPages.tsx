@@ -1,7 +1,6 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/relatedPages.scss"
 import { resolveRelative, simplifySlug } from "../util/path"
-import { i18n } from "../i18n"
 import { classNames } from "../util/lang"
 import { getDate } from "./Date"
 
@@ -68,7 +67,7 @@ export default ((opts?: Partial<RelatedPagesOptions>) => {
 
     return (
       <div class={classNames(displayClass, "related-pages")}>
-        <h3>{options.title ?? i18n(cfg.locale).components.relatedPages.title}</h3>
+        <h3>{options.title ?? "Related Pages"}</h3>
         <ul>
           {relatedPages.map(({ file }) => (
             <li>

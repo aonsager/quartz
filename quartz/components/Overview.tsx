@@ -27,12 +27,6 @@ export default (() => {
           </h3>
           <p class="meta">Things I liked</p>
         </div>
-        <div class="section">
-          <h3>
-            <a href="/games/">Games</a>
-          </h3>
-          <p class="meta">Thoughts and reference</p>
-        </div>
       </div>
     )
   }

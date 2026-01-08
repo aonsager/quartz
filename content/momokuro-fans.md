@@ -1,27 +1,23 @@
 ---
-title: 'When a music festival was cancelled, idol fans supported the local community'
-date: '2025-04-21 12:44:00 +0900'
-link: https://news.yahoo.co.jp/articles/f3dc7027f17ec3d90e0da75d8f622e12452f471a
+title: When a music festival was cancelled, idol fans supported the local community
+date: 2025-04-21 12:44:00 +0900
 colors:
-  - '#C90738'
-  - '#525151'
-  - '#582D1C'
-  - '#B73A3C'
-  - '#592D1C'
+  - "#C90738"
+  - "#525151"
+  - "#582D1C"
+  - "#B73A3C"
+  - "#592D1C"
 tags:
   - japan
   - festival
   - fans
   - community
   - compassion
-blurb: >-
-  Uplifting news from Japan. When a music festival was cancelled in the face of
-  dangerous weather, fans praised the organizers for their quick decisions and
-  took it upon themselves to support the local community in its stead.
+blurb: Uplifting news from Japan. When a music festival was cancelled in the face of dangerous weather, fans praised the organizers for their quick decisions and took it upon themselves to support the local community in its stead.
 metaRSS: true
 ---
 
-Some uplifting news from Japan:
+Some uplifting [news from Japan](https://news.yahoo.co.jp/articles/f3dc7027f17ec3d90e0da75d8f622e12452f471a).
 
 On April 13th in Shibata City of Niigata prefecture (Japan), the popular idol group [Momoiro Clover Z](https://www.momoclo.net) had been planning a large music festival in cooperation with a large number of other artists, as well as local police, schools, and city government. However, on the day of festival the weather took a turn for the worse, and warnings were issued for strong winds, flash floods, and avalanches.
 

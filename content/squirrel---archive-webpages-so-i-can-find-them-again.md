@@ -1,13 +1,12 @@
 ---
 title: Squirrel - Archive webpages so I can find them again
-date: '2025-01-09'
-link: https://github.com/aonsager/squirrel-archiver
+date: 2025-01-09
 colors:
-  - '#5B5958'
-  - '#06276E'
-  - '#60512E'
-  - '#B8AF8A'
-  - '#493630'
+  - "#5B5958"
+  - "#06276E"
+  - "#60512E"
+  - "#B8AF8A"
+  - "#493630"
 tags:
   - bookmarking
   - saving
@@ -19,7 +18,7 @@ metaRSS: true
 
 ![](/images/2025/squirrel.png)
 
-I created a thing that lets me save webpage contents in a smart way. I know, there are a million bookmark managers and web archivers out there, but this one is for me. 
+I [created a thing](https://github.com/aonsager/squirrel-archiver) that lets me save webpage contents in a smart way. I know, there are a million bookmark managers and web archivers out there, but this one is for me. 
 
 ## The Motivation
 

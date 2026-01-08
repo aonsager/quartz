@@ -1,13 +1,12 @@
 ---
 title: The First Image of a Black Hole
-date: '2019-04-11'
-link: https://www.nsf.gov/news/news_summ.jsp?cntn_id=298276
+date: 2019-04-11
 colors:
-  - '#6E0900'
-  - '#6D0800'
-  - '#9D211E'
-  - '#4E5050'
-  - '#47352E'
+  - "#6E0900"
+  - "#6D0800"
+  - "#9D211E"
+  - "#4E5050"
+  - "#47352E"
 tags:
   - space
   - news
@@ -19,7 +18,7 @@ metaRSS: true
 
 ![Credit: Event Horizon Telescope collaboration et al.](/images/blackhole.jpg)
 
-For the first time ever, scientists have captured an image of a black hole. The black hole chosen is a supermassive black hole at the center of the Messier 87 galaxy, 55 million light-years away from Earth. This is huge news, since before this we only had theoretical proofs of black holes with no direct evidence.
+For the first time ever, scientists have captured [an image of a black hole](https://www.nsf.gov/news/news_summ.jsp?cntn_id=298276). The black hole chosen is a supermassive black hole at the center of the Messier 87 galaxy, 55 million light-years away from Earth. This is huge news, since before this we only had theoretical proofs of black holes with no direct evidence.
 
 A black hole technically doesn't look like anything since it emits no light, so I understand this to be a capture of light that came very close to the black hole. It appears in a very distinct way that confirms the presence of a black hole.
 

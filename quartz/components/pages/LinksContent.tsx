@@ -1,78 +1,133 @@
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
-import { FullSlug, resolveRelative } from "../../util/path"
+import { FilePath, FullSlug, resolveRelative, normalizeHastElement } from "../../util/path"
 import { QuartzPluginData } from "../../plugins/vfile"
 import { getDate } from "../Date"
 import { GlobalConfiguration } from "../../cfg"
-import style from "../styles/listPage.scss"
+import { htmlToJsx } from "../../util/jsx"
+import { Root, Element as HastElement } from "hast"
 
-function formatMonthDay(date: Date, locale: string): string {
-  return date.toLocaleDateString(locale, { month: "short", day: "numeric" })
+interface LinksContentOptions {
+  page: number
+  totalPages: number
 }
 
-interface LinkData {
+interface LinkPost {
   slug: FullSlug
   title: string
   date: Date
   link: string
+  htmlAst: Root
+  filePath: FilePath
 }
 
-function getLinkDate(cfg: GlobalConfiguration, fileData: QuartzPluginData): Date | undefined {
+function formatFullDate(date: Date, locale: string): string {
+  return date.toLocaleDateString(locale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })
+}
+
+function getTopLevelDomain(url: string): string {
+    try {
+      const hostname = new URL(url).hostname
+      return hostname.replace(/^www\./, '')
+    } catch {
+      return url
+    }
+  }
+
+function getPostDate(cfg: GlobalConfiguration, fileData: QuartzPluginData): Date | undefined {
   return getDate(cfg, fileData)
 }
 
-export default (() => {
+function normalizeHtmlAst(tree: Root, curSlug: FullSlug, newSlug: FullSlug): Root {
+  return {
+    ...tree,
+    children: tree.children.map((child) =>
+      normalizeHastElement(child as HastElement, curSlug, newSlug),
+    ),
+  }
+}
+
+const POSTS_PER_PAGE = 20
+
+export default ((opts: LinksContentOptions) => {
   const LinksContent: QuartzComponent = (props: QuartzComponentProps) => {
     const { cfg, fileData, allFiles } = props
+    const { page, totalPages } = opts
 
-    // Filter to only files with a link frontmatter and collect page data
-    const posts: LinkData[] = allFiles
+    // Get all link posts sorted by date (newest first)
+    const allPosts: LinkPost[] = allFiles
       .filter((file) => file.frontmatter?.link !== undefined)
       .map((file) => ({
         slug: file.slug!,
         title: file.frontmatter?.title ?? "Untitled",
-        date: getLinkDate(cfg, file)!,
-        link: file.frontmatter?.link,
+        date: getPostDate(cfg, file)!,
+        link: file.frontmatter?.link as string,
+        htmlAst: file.htmlAst!,
+        filePath: file.filePath!,
       }))
-      .filter((post) => post.date !== undefined)
+      .filter((post) => post.date !== undefined && post.htmlAst !== undefined)
       .sort((a, b) => b.date.getTime() - a.date.getTime())
 
-    // Group posts by year
-    const postsByYear = new Map<number, LinkData[]>()
-    for (const post of posts) {
-      const year = post.date.getFullYear()
-      if (!postsByYear.has(year)) {
-        postsByYear.set(year, [])
-      }
-      postsByYear.get(year)!.push(post)
-    }
+    // Get posts for this page
+    const startIndex = (page - 1) * POSTS_PER_PAGE
+    const posts = allPosts.slice(startIndex, startIndex + POSTS_PER_PAGE)
 
-    // Sort years descending
-    const sortedYears = Array.from(postsByYear.keys()).sort((a, b) => b - a)
+    // Helper to get page URL
+    const getPageUrl = (pageNum: number): FullSlug => {
+      return pageNum === 1 ? ("links" as FullSlug) : (`links/${pageNum}` as FullSlug)
+    }
 
     return (
       <div class="popover-hint">
-        {sortedYears.map((year) => (
-          <div>
-            <h2>{year}</h2>
-            <ul class="section-ul">
-              {postsByYear.get(year)!.map((post) => (
-                <li class="section-li">
-                  <h3>
-                    <a href={resolveRelative(fileData.slug!, post.slug)} class="internal">
-                      {post.title}
-                    </a>
-                  </h3>
-									<p class="meta">{post.link}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <ul class="section-ul">
+          {posts.map((post) => {
+            const normalizedAst = normalizeHtmlAst(post.htmlAst, fileData.slug!, post.slug)
+            const content = htmlToJsx(post.filePath, normalizedAst)
+            return (
+              <li key={post.slug} class="section-li border-top">
+                <h3>
+                  <a href={post.link} class="external" target="_blank" rel="noopener noreferrer">
+                    {post.title}
+                  </a> <span class="meta">({getTopLevelDomain(post.link)})</span>
+                </h3>
+                {content && <div>{content}</div>}
+                <p class="meta" style="text-align: right;">
+                  <a href={resolveRelative(fileData.slug!, post.slug)} class="internal">
+                    {formatFullDate(post.date, cfg.locale)}
+                  </a>
+                </p>
+              </li>
+            )
+          })}
+        </ul>
+
+        {totalPages > 1 && (
+          <p style="text-align: center; margin-top: 2rem;">
+            {page > 1 && (
+              <a
+                href={resolveRelative(fileData.slug!, getPageUrl(page - 1))}
+                class="internal"
+              >
+                ← Newer
+              </a>
+            )}
+            {page > 1 && page < totalPages && " · "}
+            {page < totalPages && (
+              <a
+                href={resolveRelative(fileData.slug!, getPageUrl(page + 1))}
+                class="internal"
+              >
+                Older →
+              </a>
+            )}
+          </p>
+        )}
       </div>
     )
   }
 
-  LinksContent.css = style
-
   return LinksContent
-}) satisfies QuartzComponentConstructor
+}) satisfies QuartzComponentConstructor<LinksContentOptions>

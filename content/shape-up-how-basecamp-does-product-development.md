@@ -1,13 +1,12 @@
 ---
 title: Shape Up - How Basecamp does Product Development
-date: '2019-08-01'
-link: https://basecamp.com/shapeup
+date: 2019-08-01
 colors:
-  - '#4A4949'
-  - '#EC6863'
-  - '#C9B6B5'
-  - '#F60515'
-  - '#FFFFFF'
+  - "#4A4949"
+  - "#EC6863"
+  - "#C9B6B5"
+  - "#F60515"
+  - "#FFFFFF"
 tags:
   - product
   - management

@@ -29,7 +29,7 @@ My name is Alex. I grew up near Boulder, CO and spent most of my childhood readi
 
 In college I studied programming and human-computer interaction. A team of classmates and I made [a few apps](http://www.sfgate.com/news/article/These-Stanford-Students-Made-Millions-Taking-A-2361888.php) on Facebook, which eventually turned into a startup. This was the first time I made something that was used by a large number of people. It became my introduction to making real products that have users and make money.
 
-I have been working at a mobile game company in Japan since 2010. Because my day-job doesn't currently involve much programming, I like to work on [fun projects](https://invisibleparade.com/projects/) on the side that let me build things directly.
+I have been working at a mobile game company in Japan since 2010. Because my day-job does`n't currently involve much programming, I like to work on [fun projects](https://invisibleparade.com/projects/) on the side that let me build things directly.
 
 Part of the reason I maintain this site is the hope that it will help me make more connections online. Please feel free to [get in touch](https://invisibleparade.com/contact/)! It would make me very happy.
 
@@ -39,10 +39,3 @@ Here are some other pages that may be interesting:
 - [[media]]: A log of the media I enjoyed (or not)
 - [[future]]: My thoughts and hopes about the rest of my life
 - [[past]]: Looking back on how things went
-
-
-### Games
-
-I have a [[Games/]] section of this site where I write about the various games I play. This includes information that I collect for me reference while playing, as well as a record of thoughts that I have about the game experience.
-
-There isn't a lot there yet, but since I make games for a living I figured it will be good for me to be more deliberate about thinking about games and putting my thoughts into writing.
