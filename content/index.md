@@ -2,21 +2,23 @@
 title: Invisible Parade
 ---
 
+Hello, and welcome to my website. Web development is one of my favorite hobbies, and becoming a proficient writer is one of my greatest ambitions. This is a space for me to practice the two.
+
+In addition to being a blog, this is a freeform space for me to build – and hopefully grow – a personal knowledge-base.
+
+### Some of my favorite posts
+
+- [[behind-the-scenes-pokemon-fusion | Pokemon Fusion: Behind the Scenes]]
+- [[adding-color-to-posts-automatically | Generating Colors from Post Titles ]]
+- [[a-fathers-bookshelf | A Father's Bookshelf ]]
+- [[becoming-a-parent-introduced-me-to-stress | Becoming a parent introduced me to stress ]]
+- [[beautiful-vs.-effective-prose | Beautiful vs. Effective Prose ]]
+
 ## About this site
 
-In addition to being a blog, this is a freeform space for me to build – and hopefully grow – a personal knowledge-base. My [main website](https://www.invisibleparade.com) is a space for my thoughts and longer written posts, and has more information about me.
+I write notes using [Obsidian](https://obsidian.md), and use [Quartz](https://quartz.jzhao.xyz) to transform my notes into a functional website. You can look at the [[Colophon]] for information about how this site is built. I have a running list of [[Site todo | todos]] that I want to take care of.
 
-I write notes using [Obsidian](https://obsidian.md), and use [Quartz](https://quartz.jzhao.xyz) to transform my notes into a functional website.
-
-These pages might be a good start:
-
-- [Posts](/posts) for a list of all blog posts
-- [Links](/links) is a list of interesting sites I have linked to
-- [Colophon](/tags/colophon) for information about how this site is built
-
-I'm still not sure what the best way to organize things is here, so they might be a lot of reorganizing for a while.
-
-For now, the vision is to just tag everything and see what happens. Maybe I will make a tag cloud to aid exploration. Maybe I will expose a list of related pages for each page. I'm not sure yet, but I think I have a lot of options.
+I'm still not sure what the best way to organize things is here, so they might be a lot of reorganizing for a while. For now, the vision is to just tag everything and see what happens. Maybe I will make a tag cloud to aid exploration. Maybe I will expose a list of related pages for each page. I'm not sure yet, but I think I have a lot of options.
 
 Please note that this site has a great search function. You can use the search bar in the upper-left, or press  `⌘`/`ctrl` + `K`. 
 
@@ -29,9 +31,9 @@ My name is Alex. I grew up near Boulder, CO and spent most of my childhood readi
 
 In college I studied programming and human-computer interaction. A team of classmates and I made [a few apps](http://www.sfgate.com/news/article/These-Stanford-Students-Made-Millions-Taking-A-2361888.php) on Facebook, which eventually turned into a startup. This was the first time I made something that was used by a large number of people. It became my introduction to making real products that have users and make money.
 
-I have been working at a mobile game company in Japan since 2010. Because my day-job does`n't currently involve much programming, I like to work on [fun projects](https://invisibleparade.com/projects/) on the side that let me build things directly.
+I have been working at a mobile game company in Japan since 2010. Because my day-job doesn't currently involve much programming, I like to work on fun [[projects]] on the side that let me build things directly.
 
-Part of the reason I maintain this site is the hope that it will help me make more connections online. Please feel free to [get in touch](https://invisibleparade.com/contact/)! It would make me very happy.
+Part of the reason I maintain this site is the hope that it will help me make more connections online. Please feel free to [[contact | get in touch]]! It would make me very happy.
 
 Here are some other pages that may be interesting:
 

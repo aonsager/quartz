@@ -33,4 +33,4 @@ I've always felt that it's unwieldy to install static-site generators on the VPS
 
 Since the Markdown content is synced via iCloud, I can even set up a cron task on my home computer to build + deploy every hour.
 
-I've also tagged various files with #colophon that explain small features I've added.`
+I've also tagged various files with #colophon that explain small features I've added.

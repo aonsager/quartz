@@ -29,7 +29,7 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 	- [ ] Make a section for Haiku?
 	- [ ] Decide how much I want to change the site's layout/CSS
 	- [ ] Set up automatic importing of micro posts from [[gotosocial]]
-	- [ ] Revisit design of [[external links]] page
+	- [x] Revisit design of [[links]] page
 - Game wiki section 
 	- [x] Start writing things about games I am playing
 	- [ ] Micro-posts
@@ -39,11 +39,16 @@ With Quartz, I just add a new file somewhere, slap on a few words, and it's alre
 		- [ ] Enable hover hover-over links for only certain links
 			- Just definitions would be ideal
 - RSS
-	- [ ] Set up an RSS feed, for only notes that I set #metaRSS in the frontmatter
+	- [x] Set up an RSS feed, for only notes that I set #metaRSS in the frontmatter
+	- [x] A feed for links
+	- [x] A feed that combines both
 - Blog
 	- [x] Migrate old posts over
 	- [x] Check all posts to make sure nothing is broken
-	- [ ] Resurface `link` frontmatter
-		- [ ] Add a new /links section based on this. 
+	- [x] Resurface `link` frontmatter
+		- [x] Add a new /links section based on this. 
 			- Overlap with /posts is ok
 	- [ ] See how things feel with a tag-based organization
+	- [ ] Add the five-color display to the design
+- Micro posts
+	- [ ] Make image display smarter. Probably put all images inline.

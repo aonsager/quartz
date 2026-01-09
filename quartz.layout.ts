@@ -10,6 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       Fediverse: "https://gts.invisibleparade.com/@alex",
       Email: "mailto:alex.onsager@gmail.com",
+      Subscribe: "/feeds",
     },
   }),
 }
